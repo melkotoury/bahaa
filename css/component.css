@@ -4471,7 +4471,7 @@ li [class*=" fa-"].icon-large, li [class*=" glyphicon-"].icon-large, li [class*=
 .dropdown-menu>li.active:hover>a, .dropdown-menu>li.active>a, .dropdown-menu>li:hover>a {
     text-decoration: none;
     background-image: none;
-    background-color: #f6f6f6;
+    background-color: #FF755A;
     color: #555;
     filter: none;
 }
