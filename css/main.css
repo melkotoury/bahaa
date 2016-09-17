@@ -188,6 +188,13 @@ a:hover {
 /* ==========================================================================
    Navigation styles
    ========================================================================== */
+@media only screen and (max-width: 500px) {
+  .navbar-brand>img {
+    width: 50%;
+    margin-top: -12px;  
+  }
+
+}
 .navbar-inverse {
     background-color: #ff755a;
     border-color: transparent;
@@ -305,7 +312,7 @@ a:hover {
       line-height: 18px;
       white-space: nowrap;
 
-    
+
 }
 
 .navbar-inverse .navbar-toggle {
