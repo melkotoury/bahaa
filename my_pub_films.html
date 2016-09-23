@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom-styles.css">
-    <link rel="stylesheet" href="css/my_films_home.css">
+    <link rel="stylesheet" href="css/my_films.css" media="screen" title="no title">
 
 
 
@@ -90,9 +90,9 @@
                             src="img/users/bahaa.jpg" style="height: 24px; width: 24px;" alt="" class="img-responsive img-circle user-img"> <span> bahaa el gamal</span> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                        <li><a href="iamafilm.html"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
+                        <li><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
                         <li><a href="edit_profile.html"><i class="fa fa-gear" aria-hidden="true"></i> Edit Profile</a></li>
-                        <li ><a href="my_films.html"><i class="fa fa-film" aria-hidden="true"></i> My Films</a></li>
+                        <li><a href="my_films.html"><i class="fa fa-film" aria-hidden="true"></i> My Films</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a></li>
                     </ul>
@@ -101,45 +101,111 @@
         </div><!--/.navbar-collapse -->
     </div>
 </div>
-<!--Public and Private Cards-->
-<div class="container pp">
-    <div class="row">
-    
-        <div class="col-xs-6">
-            <div class="card" id="card2">
-                <!--<center>-->
-<img src="img/my_films/myfilms/01.jpg" alt="">
-<!--</center>-->
-  <div class="wrapper">
-    <h4><b>Public Films</b></h4> 
-        <p>When Clicking this link, you can view a list of your public films which are accessible by all the users and the film can be seen by them</p> 
 
-  </div>
-  <div class="enter">
-      <button onclick=window.open("my_pub_films.html","_self") id="btn1" class="btn  btn-lg btn-block btn-iamafilm"><i class="fa fa-sign-in"> Go</i></button>
-      </div>
+
+
+<!-- Edit ,Delete ,Add Films -->
+<div class="container my_films">
+	<div class="row">
+		<div class="col-xs-12">
+			<div class="panel panel-info">
+				<div class="panel-heading">
+					<div class="panel-title">
+						<div class="row">
+							<div class="col-xs-10">
+								<h5><span class="glyphicon glyphicon-film"></span> My Films</h5>
+							</div>
+							<div class="col-xs-2">
+								<button type="button" class="btn btn-default">
+									<span class="glyphicon glyphicon-plus"></span> New Film
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-xs-2"><img class="img-responsive" src="img/my_films/01-six/01.jpg">
+						</div>
+						<div class="col-xs-6">
+							<h4 class="film-name"><strong><span class="primary">Six (2013)</span></strong></h4><h4><small>A gramophone breaks the silence , they are getting dressed to meet the coming visitors , she is searching for a butterfly necklace , she founds a gun . and then everything started
+</small></h4>
+<h4><small><span class="primary">Director:</span> Bahaa el Gamal</small></h4>
+<h4><small><span class="primary">Writer:</span> Atef Nashed</small></h4>
+<h4><small><span class="primary">Stars:</span> Shaimaa Ebied, Atef Yousef</small></h4>
+<h4><small><span class="primary">Genres:</span> Short | Action | Drama | Romance | Thriller </small></h4>
+<h4><small><span class="primary">Country:</span> Egypt </small></h4>
+<h4><small><span class="primary">Language:</span> Arabic </small></h4>
+						</div>
+						<div class="col-xs-2">
+
+						</div>
+
+							<div class="col-xs-2">
+                <button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-pencil"> </span>
+								</button>
+								<button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-trash"> </span>
+								</button>
+							</div>
+						</div>
+
+					<hr class="horizontal">
+          <div class="row">
+						<div class="col-xs-2"><img class="img-responsive" src="img/my_films/02-my_window/01.jpg">
+						</div>
+						<div class="col-xs-6">
+							<h4 class="film-name"><strong><span class="primary">My Window (2016)</span></strong></h4><h4><small>In a noisy , chaotic and confusing city .. Its music through my window
+</h4>
+<h4><small><span class="primary">Director:</span> Bahaa el Gamal</small></h4>
+<h4><small><span class="primary">Writer:</span> Bahaa el Gamal</small></h4>
+<h4><small><span class="primary">Stars:</span> Bahaa el Gamal</small></h4>
+<h4><small><span class="primary">Genres:</span> Short | Drama </small></h4>
+<h4><small><span class="primary">Country:</span> Egypt </small></h4>
+<h4><small><span class="primary">Language:</span> Arabic </small></h4>
+
+
+						</div>
+						<div class="col-xs-2">
+
+						</div>
+
+							<div class="col-xs-2">
+                <button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-pencil"> </span>
+								</button>
+								<button type="button" class="btn btn-link btn-xs">
+									<span class="glyphicon glyphicon-trash"> </span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<hr class="horizontal">
+					<!-- <div class="row">
+						<div class="text-center">
+							<div class="col-xs-9">
+								<h6 class="text-right">Added items?</h6>
+							</div>
+							<div class="col-xs-3">
+								<button type="button" class="btn btn-default btn-sm btn-block">
+									Update cart
+								</button>
+							</div>
+						</div>
+					</div> -->
+					</div>
+					</div>
+				</div><!-- end col-xs-12 -->
+				</div><!-- end row -->
+				</div> <!-- end panel-body -->
+				<div class="panel-footer">
+
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-        </div>
-            <div class="col-xs-6">
-            <div class="card" id="card1">
-                <!--<center>-->
-<img src="img/my_films/myfilms/01.jpg" alt="">
-<!--</center>-->
-  <div class="wrapper">
-    <h4><b>Private Films</b></h4> 
-    <p>When Clicking the link, you can view a list of your private films which are accessible by all users , but only you and the festival you submit this film to can view the film itself </p>
-  </div>
-  <div class="enter">
-      <button onclick=window.open("my_private_films.html","_self") id="btn2" class="btn  btn-lg btn-block btn-iamafilm"><i class="fa fa-sign-in"> Go</i></button>
-      </div>
-</div>
-        </div>
-    </div>
-</div>
-
-
-
-
 <!--Bottom Section-->
 <section id="bottom">
     <div class="container">
@@ -187,15 +253,14 @@
 <script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
-<script src="js/my_films_home.js"></script>
 
-<!--<script>
+<script>
     !function ($) {
         $(function(){
             $('#header').carousel()
         })
     }(window.jQuery)
-</script>-->
+</script>
 
 
 
