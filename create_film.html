@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>I am a film | Submit Your Short Movie</title>
+    <meta name="keywords" content="short films, films, festivals, submit your films, i am a film, film makers, submit
+ to festivals">
+    <meta name="description" content="submit your short film , film festivals , directors , editors , short films">
+    <meta name="viewport" content="width=device-width">
+
+    <meta property="og:title" content="Iamafilm | Designed By Root Cave">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.iamafilm.com">
+    <meta property="og:site_name" content="Iamafilm">
+    <meta property="og:description" content="made with bootstrap, wrap bootstrap themes, bootstrap agency themes, creative bootstrap sites, Lava theme, responsive bootstrap theme, mobile website themes, bootstrap portfolio, Root Cave">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <link href="css/jqvmap.css" media="screen" rel="stylesheet" type="text/css">
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
+    <link rel="stylesheet" href="js/bootstrap-daterangepicker/daterangepicker.min.css">
+    <link rel="stylesheet" href="js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/create_edit_film.css">
+
+
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../../apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../../apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../../../apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../../../../apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../../../../../favicon.html">
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand img-responsive" href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="index.html">Home</a></li>
+                <li ><a href="iamafilm.html">I am a film</a></li>
+
+                <li class="active">
+                    <!--class="dropdown-toggle" data-toggle="dropdown"-->
+                    <!--<b class="caret"></b>-->
+                    <a href="submit_film.html" >Submit a Film </a>
+                    <!--<ul class="dropdown-menu">-->
+                    <!--<li><a href="full-width.html">Full Width</a></li>-->
+                    <!--<li><a href="services.html">Services</a></li>-->
+                    <!--<li><a href="about.html">About</a></li>-->
+                    <!--<li><a href="team.html">Team</a></li>-->
+                    <!--<li><a href="pricing.html">Pricing</a></li>-->
+                    <!--<li><a href="blog.html">Blog Loop</a></li>-->
+                    <!--<li><a href="blog-article.html">Blog Article</a></li>-->
+                    <!--<li><a href="login.html">Log In</a></li>-->
+                    <!--<li><a href="signup.html">Sign Up</a></li>-->
+                    <!--<li><a href="icons.html">Icons</a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Map <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="map_film_maker.html">Film Maker</a></li>
+                        <li><a href="map_festivals.html">Festivals</a></li>
+                    </ul>
+                </li>
+                <!--<li><a href="blog.html">Blog</a></li>-->
+                <li><a href="contact.html">Contact</a></li>
+
+
+                <li><a href="login.html" role="button" data-toggle="" data-target=""><i class="fa fa-lock" aria-hidden="true"></i>  Login</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img
+                            src="img/users/bahaa.jpg" style="height: 24px; width: 24px;" alt="" class="img-responsive img-circle user-img"> <span> bahaa el gamal</span> <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                        <li><a href="profile.html"><i class="fa fa-user" aria-hidden="true"></i> My Profile</a></li>
+                        <li><a href="edit_profile.html"><i class="fa fa-gear" aria-hidden="true"></i> Edit Profile</a></li>
+                        <li><a href="my_films.html"><i class="fa fa-film" aria-hidden="true"></i> My Films</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.navbar-collapse -->
+    </div> <!--container -->
+</div>
+
+<section id="main" class="margin-top-100">
+    <div class="container">
+      <div class="row">
+                            <div class="col-md-12">
+                                <form class="form-horizontal form-row-seperated" action="#">
+                                    <div class="portlet">
+                                        <div class="portlet-title">
+                                            <div class="caption">
+                                                <i class="fa fa-film"></i>Create Film </div>
+                                            <div class="actions btn-set">
+                                                <button type="button" name="back" class="btn btn-secondary-outline">
+                                                    <i class="fa fa-angle-left"></i> Back</button>
+                                                <button class="btn btn-secondary-outline">
+                                                    <i class="fa fa-reply"></i> Reset</button>
+                                                <button class="btn btn-success">
+                                                    <i class="fa fa-check"></i> Save</button>
+                                                <button class="btn btn-success">
+                                                    <i class="fa fa-check-circle"></i> Save & Continue Edit</button>
+                                                <div class="btn-group">
+                                                    <a class="btn btn-success dropdown-toggle" href="javascript:;" data-toggle="dropdown">
+                                                        <i class="fa fa-share"></i> More
+                                                        <i class="fa fa-angle-down"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu pull-right">
+                                                        <li>
+                                                            <a href="javascript:;"> Duplicate </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:;"> Delete </a>
+                                                        </li>
+                                                        <li class="dropdown-divider"> </li>
+                                                        <li>
+                                                            <a href="javascript:;"> Print </a>
+                                                        </li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="portlet-body">
+                                            <div class="tabbable-bordered">
+                                                <ul class="nav nav-tabs">
+                                                    <li class="active">
+                                                        <a href="#tab_general" data-toggle="tab"> General </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab_meta" data-toggle="tab"> Production & Credits </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab_images" data-toggle="tab"> Images </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab_promotion" data-toggle="tab"> Promotion
+                                                            <!--<span class="badge badge-success"> 3 </span>-->
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab_history" data-toggle="tab"> Subtitles </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#tab_images" data-toggle="tab"> Selections & Awards </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content">
+                                                    <div class="tab-pane active" id="tab_general">
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Original Title:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[original_title]" placeholder=""> </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">English Title:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[english_title]" placeholder=""> </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Description:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="form-control" name="product[description]"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Short Description:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="form-control" name="product[short_description]"></textarea>
+                                                                    <span class="help-block"> shown in product listing </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Categories:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <div class="form-control height-auto">
+                                                                        <div class="scroller" style="height:100%;" data-always-visible="1">
+                                                                            <ul class="list-unstyled">
+                                                                                <li>
+                                                                                    <label>
+                                                                                        <input type="checkbox" name="product[categories][]" value="1">Mens</label>
+                                                                                    <ul class="list-unstyled">
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Footwear</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Clothing</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Accessories</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Fashion Outlet</label>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label>
+                                                                                        <input type="checkbox" name="product[categories][]" value="1">Football Shirts</label>
+                                                                                    <ul class="list-unstyled">
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Premier League</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Football League</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Serie A</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Bundesliga</label>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <label>
+                                                                                        <input type="checkbox" name="product[categories][]" value="1">Brands</label>
+                                                                                    <ul class="list-unstyled">
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Adidas</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Nike</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Airwalk</label>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <label>
+                                                                                                <input type="checkbox" name="product[categories][]" value="1">Kangol</label>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                    <span class="help-block"> select one or more categories </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Available Date:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <div class="input-group input-large date-picker input-daterange" data-date="10/11/2012" data-date-format="mm/dd/yyyy">
+                                                                        <input type="text" class="form-control" name="product[available_from]">
+                                                                        <span class="input-group-addon"> to </span>
+                                                                        <input type="text" class="form-control" name="product[available_to]"> </div>
+                                                                    <span class="help-block"> availability daterange. </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">SKU:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="product[sku]" placeholder=""> </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Price:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="product[price]" placeholder=""> </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Tax Class:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select class="table-group-action-input form-control input-medium" name="product[tax_class]">
+                                                                        <option value="">Select...</option>
+                                                                        <option value="1">None</option>
+                                                                        <option value="0">Taxable Goods</option>
+                                                                        <option value="0">Shipping</option>
+                                                                        <option value="0">USA</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Status:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select class="table-group-action-input form-control input-medium" name="product[status]">
+                                                                        <option value="">Select...</option>
+                                                                        <option value="1">Published</option>
+                                                                        <option value="0">Not Published</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab_meta">
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Meta Title:</label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control maxlength-handler" name="product[meta_title]" maxlength="100" placeholder="">
+                                                                    <span class="help-block"> max 100 chars </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Meta Keywords:</label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="form-control maxlength-handler" rows="8" name="product[meta_keywords]" maxlength="1000"></textarea>
+                                                                    <span class="help-block"> max 1000 chars </span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Meta Description:</label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="form-control maxlength-handler" rows="8" name="product[meta_description]" maxlength="255"></textarea>
+                                                                    <span class="help-block"> max 255 chars </span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab_images">
+                                                        <div class="alert alert-success margin-bottom-10">
+                                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button>
+                                                            <i class="fa fa-warning fa-lg"></i> Image type and information need to be specified. </div>
+                                                        <div id="tab_images_uploader_container" class="text-align-reverse margin-bottom-10">
+                                                            <a id="tab_images_uploader_pickfiles" href="javascript:;" class="btn btn-success">
+                                                                <i class="fa fa-plus"></i> Select Files </a>
+                                                            <a id="tab_images_uploader_uploadfiles" href="javascript:;" class="btn btn-primary">
+                                                                <i class="fa fa-share"></i> Upload Files </a>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div id="tab_images_uploader_filelist" class="col-md-6 col-sm-12"> </div>
+                                                        </div>
+                                                        <table class="table table-bordered table-hover">
+                                                            <thead>
+                                                                <tr role="row" class="heading">
+                                                                    <th width="8%"> Image </th>
+                                                                    <th width="25%"> Label </th>
+                                                                    <th width="8%"> Sort Order </th>
+                                                                    <th width="10%"> Base Image </th>
+                                                                    <th width="10%"> Small Image </th>
+                                                                    <th width="10%"> Thumbnail </th>
+                                                                    <th width="10%"> </th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a href="../assets/pages/media/works/img1.jpg" class="fancybox-button" data-rel="fancybox-button">
+                                                                            <img class="img-responsive" src="../assets/pages/media/works/img1.jpg" alt=""> </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][1][label]" value="Thumbnail image"> </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][1][sort_order]" value="1"> </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][1][image_type]" value="1"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][1][image_type]" value="2"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][1][image_type]" value="3" checked> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="btn btn-default btn-sm">
+                                                                            <i class="fa fa-times"></i> Remove </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a href="../assets/pages/media/works/img2.jpg" class="fancybox-button" data-rel="fancybox-button">
+                                                                            <img class="img-responsive" src="../assets/pages/media/works/img2.jpg" alt=""> </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][2][label]" value="Product image #1"> </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][2][sort_order]" value="1"> </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][2][image_type]" value="1"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][2][image_type]" value="2" checked> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][2][image_type]" value="3"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="btn btn-default btn-sm">
+                                                                            <i class="fa fa-times"></i> Remove </a>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <a href="../assets/pages/media/works/img3.jpg" class="fancybox-button" data-rel="fancybox-button">
+                                                                            <img class="img-responsive" src="../assets/pages/media/works/img3.jpg" alt=""> </a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][3][label]" value="Product image #2"> </td>
+                                                                    <td>
+                                                                        <input type="text" class="form-control" name="product[images][3][sort_order]" value="1"> </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][3][image_type]" value="1" checked> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][3][image_type]" value="2"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <label>
+                                                                            <input type="radio" name="product[images][3][image_type]" value="3"> </label>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="javascript:;" class="btn btn-default btn-sm">
+                                                                            <i class="fa fa-times"></i> Remove </a>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab_promotion">
+                                                        <div class="table-container">
+                                                            <table class="table table-striped table-bordered table-hover" id="datatable_reviews">
+                                                                <thead>
+                                                                    <tr role="row" class="heading">
+                                                                        <th width="5%"> Review&nbsp;# </th>
+                                                                        <th width="10%"> Review&nbsp;Date </th>
+                                                                        <th width="10%"> Customer </th>
+                                                                        <th width="20%"> Review&nbsp;Content </th>
+                                                                        <th width="10%"> Status </th>
+                                                                        <th width="10%"> Actions </th>
+                                                                    </tr>
+                                                                    <tr role="row" class="filter">
+                                                                        <td>
+                                                                            <input type="text" class="form-control form-filter input-sm" name="product_review_no"> </td>
+                                                                        <td>
+                                                                            <div class="input-group date date-picker margin-bottom-5" data-date-format="dd/mm/yyyy">
+                                                                                <input type="text" class="form-control form-filter input-sm" readonly name="product_review_date_from" placeholder="From">
+                                                                                <span class="input-group-btn">
+                                                                                    <button class="btn btn-sm default" type="button">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </button>
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="input-group date date-picker" data-date-format="dd/mm/yyyy">
+                                                                                <input type="text" class="form-control form-filter input-sm" readonly name="product_review_date_to" placeholder="To">
+                                                                                <span class="input-group-btn">
+                                                                                    <button class="btn btn-sm default" type="button">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </button>
+                                                                                </span>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <input type="text" class="form-control form-filter input-sm" name="product_review_customer"> </td>
+                                                                        <td>
+                                                                            <input type="text" class="form-control form-filter input-sm" name="product_review_content"> </td>
+                                                                        <td>
+                                                                            <select name="product_review_status" class="form-control form-filter input-sm">
+                                                                                <option value="">Select...</option>
+                                                                                <option value="pending">Pending</option>
+                                                                                <option value="approved">Approved</option>
+                                                                                <option value="rejected">Rejected</option>
+                                                                            </select>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="margin-bottom-5">
+                                                                                <button class="btn btn-sm btn-success filter-submit margin-bottom">
+                                                                                    <i class="fa fa-search"></i> Search</button>
+                                                                            </div>
+                                                                            <button class="btn btn-sm btn-danger filter-cancel">
+                                                                                <i class="fa fa-times"></i> Reset</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody> </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="tab_history">
+                                                        <div class="table-container">
+                                                            <table class="table table-striped table-bordered table-hover" id="datatable_history">
+                                                                <thead>
+                                                                    <tr role="row" class="heading">
+                                                                        <th width="25%"> Datetime </th>
+                                                                        <th width="55%"> Description </th>
+                                                                        <th width="10%"> Notification </th>
+                                                                        <th width="10%"> Actions </th>
+                                                                    </tr>
+                                                                    <tr role="row" class="filter">
+                                                                        <td>
+                                                                            <div class="input-group date datetime-picker margin-bottom-5" data-date-format="dd/mm/yyyy hh:ii">
+                                                                                <input type="text" class="form-control form-filter input-sm" readonly name="product_history_date_from" placeholder="From">
+                                                                                <span class="input-group-btn">
+                                                                                    <button class="btn btn-sm default date-set" type="button">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </button>
+                                                                                </span>
+                                                                            </div>
+                                                                            <div class="input-group date datetime-picker" data-date-format="dd/mm/yyyy hh:ii">
+                                                                                <input type="text" class="form-control form-filter input-sm" readonly name="product_history_date_to" placeholder="To">
+                                                                                <span class="input-group-btn">
+                                                                                    <button class="btn btn-sm default date-set" type="button">
+                                                                                        <i class="fa fa-calendar"></i>
+                                                                                    </button>
+                                                                                </span>
+                                                                            </div>
+                                                                        </td>
+                                                                        <td>
+                                                                            <input type="text" class="form-control form-filter input-sm" name="product_history_desc" placeholder="To" /> </td>
+                                                                        <td>
+                                                                            <select name="product_history_notification" class="form-control form-filter input-sm">
+                                                                                <option value="">Select...</option>
+                                                                                <option value="pending">Pending</option>
+                                                                                <option value="notified">Notified</option>
+                                                                                <option value="failed">Failed</option>
+                                                                            </select>
+                                                                        </td>
+                                                                        <td>
+                                                                            <div class="margin-bottom-5">
+                                                                                <button class="btn btn-sm btn-default filter-submit margin-bottom">
+                                                                                    <i class="fa fa-search"></i> Search</button>
+                                                                            </div>
+                                                                            <button class="btn btn-sm btn-danger-outline filter-cancel">
+                                                                                <i class="fa fa-times"></i> Reset</button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody> </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+    </div>
+</section>
+<!--Bottom Section-->
+<section id="bottom">
+    <div class="container">
+        <div class="row margin-40">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <p>1234 Main Street Egypt, GA 30305 | 404.555.5555  |  <a href="mailto:support@rootcave.com"><i class="icon-envelope-alt"></i> support@rootcave.com</a></p>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 text-center">
+                <!--Social Icons-->
+                <ul class="social-icons">
+                    <li><a class="twitter" href="http://www.twitter.com/rootcave" target="_blank"><i class="fa fa-twitter fa-3x"></i></a></li>
+                    <li><a class="facebook" href="http://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-3x"></i></a></li>
+                    <li><a class="google" href="http://www.googleplus.com/" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a></li>
+                    <li><a class="instagram" href="http://www.instagram.com/" target="_blank"><i class="fa fa-camera-retro fa-3x"></i></a></li>
+                    <li><a class="pinterest" href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest fa-3x"></i></a></li>
+                    <li><a class="linkedin" href="http://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                    <li><a class="Github" href="http://www.github.com/" target="_blank"><i class="fa fa-github-alt fa-3x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <p>@ Copyright. All Rights Reserved. Created by <a href="http://www.rootcave.com/">Root Cave.</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+<!--plugins-->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/datatable.js"></script>
+<script src="js/datatables/datatables.min.js"></script>
+<script src="js/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="js/bootstrap-daterangepicker/daterangepicker.min.js"></script>
+<script src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="js/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
+<!--Custom Scripts-->
+<script src="js/main.js"></script>
+<script src="js/create_edit_film.js"></script>
+
+
+
+
+<script>
+    !function ($) {
+        $(function(){
+            $('#header').carousel()
+        })
+    }(window.jQuery)
+</script>
+
+
+
+</body>
+
+</html>
