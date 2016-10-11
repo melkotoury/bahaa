@@ -24,12 +24,29 @@
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap-datepicker/css/bootstrap-datepicker3.min.css">
-    <link rel="stylesheet" href="js/bootstrap-daterangepicker/daterangepicker.min.css">
-    <link rel="stylesheet" href="js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css">
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <!--<link href="js/vendors/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />-->
+    <link href="js/vendors/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendors/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/vendors/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--<link href="js/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css" />-->
+    <!--<link href="js/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css" />-->
+    <!--<link href="js/vendors/clockface/css/clockface.css" rel="stylesheet" type="text/css" />-->
+    <!-- END PAGE LEVEL PLUGINS -->
+
+
+
+
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="css/vendors/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="css/vendors/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom-styles.css">
     <link rel="stylesheet" href="css/create_edit_film.css">
+
+
 
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -59,7 +76,7 @@
                 <li ><a href="index.html">Home</a></li>
                 <li ><a href="iamafilm.html">I am a film</a></li>
 
-                <li class="active">
+                <li >
                     <!--class="dropdown-toggle" data-toggle="dropdown"-->
                     <!--<b class="caret"></b>-->
                     <a href="submit_film.html" >Submit a Film </a>
@@ -84,6 +101,7 @@
                     </ul>
                 </li>
                 <!--<li><a href="blog.html">Blog</a></li>-->
+                <li class="active"><a href="my_films.html">My Films</a></li>
                 <li><a href="contact.html">Contact</a></li>
 
 
@@ -169,6 +187,7 @@
                                                 </ul>
                                                 <div class="tab-content">
                                                     <div class="tab-pane active" id="tab_general">
+                                                        <!--Original Title-->
                                                         <div class="form-body">
                                                             <div class="form-group">
                                                                 <label class="col-md-2 control-label">Original Title:
@@ -177,6 +196,8 @@
                                                                 <div class="col-md-10">
                                                                     <input type="text" class="form-control" name="film[original_title]" placeholder=""> </div>
                                                             </div>
+                                                            <!--End Original Title-->
+                                                            <!--English Title-->
                                                             <div class="form-group">
                                                                 <label class="col-md-2 control-label">English Title:
                                                                     <span class="required"> * </span>
@@ -184,155 +205,889 @@
                                                                 <div class="col-md-10">
                                                                     <input type="text" class="form-control" name="film[english_title]" placeholder=""> </div>
                                                             </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Description:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <textarea class="form-control" name="product[description]"></textarea>
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Short Description:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <textarea class="form-control" name="product[short_description]"></textarea>
-                                                                    <span class="help-block"> shown in product listing </span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Categories:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <div class="form-control height-auto">
-                                                                        <div class="scroller" style="height:100%;" data-always-visible="1">
-                                                                            <ul class="list-unstyled">
-                                                                                <li>
-                                                                                    <label>
-                                                                                        <input type="checkbox" name="product[categories][]" value="1">Mens</label>
-                                                                                    <ul class="list-unstyled">
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Footwear</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Clothing</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Accessories</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Fashion Outlet</label>
-                                                                                        </li>
-                                                                                    </ul>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <label>
-                                                                                        <input type="checkbox" name="product[categories][]" value="1">Football Shirts</label>
-                                                                                    <ul class="list-unstyled">
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Premier League</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Football League</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Serie A</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Bundesliga</label>
-                                                                                        </li>
-                                                                                    </ul>
-                                                                                </li>
-                                                                                <li>
-                                                                                    <label>
-                                                                                        <input type="checkbox" name="product[categories][]" value="1">Brands</label>
-                                                                                    <ul class="list-unstyled">
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Adidas</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Nike</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Airwalk</label>
-                                                                                        </li>
-                                                                                        <li>
-                                                                                            <label>
-                                                                                                <input type="checkbox" name="product[categories][]" value="1">Kangol</label>
-                                                                                        </li>
-                                                                                    </ul>
-                                                                                </li>
-                                                                            </ul>
+                                                            <!--End English Title-->
+                                                                <!--<div class="col-md-10">-->
+                                                                    <!--<input type="text" class="form-control" name="film[production_date]" placeholder=""> -->
+                                                                <!--</div>-->
+                                                                <div class="form-group">
+                                                                    <label class="col-md-2 control-label">Production Date:
+                                                                        <span class="required"> * </span>
+                                                                    </label>
+                                                                    <div class="col-md-10">
+                                                                        <div class="input-group input-medium date date-picker" data-date="new Date()" data-date-format="dd-mm-yyyy" data-date-viewmode="years">
+                                                                            <input type="text" class="form-control" readonly>
+                                                                            <span class="input-group-btn">
+                                                                <button class="btn default" type="button">
+                                                                    <i class="fa fa-calendar"></i>
+                                                                </button>
+                                                            </span>
                                                                         </div>
+                                                                        <!-- /input-group -->
                                                                     </div>
-                                                                    <span class="help-block"> select one or more categories </span>
+                                                                </div><!--date picker ends -->
+
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Film Url:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[film_url]" placeholder=""> </div>
+                                                            </div>
+                                                            <!--Languages-->
+                                                            <div class="form-group">
+                                                                <label   class="col-md-2 control-label">Languages:
+                                                                <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                <select  id="multiple" class=" form-control select2-multiple" multiple>
+                                                                    <optgroup label="Languages" >
+                                                                        <option value="ab">Abkhazian</option>
+                                                                        <option value="aa" >Afar</option>
+                                                                        <option value="ab">Abkhazian</option>
+                                                                        <option value="af" >Afrikaans</option>
+                                                                        <option value="sq">Albanian</option>
+                                                                        <option value="aa" >Amharic</option>
+                                                                        <option value="am">Abkhazian</option>
+                                                                        <option value="ar" >Arabic</option>
+                                                                        <option value="an">Aragonese</option>
+                                                                        <option value="hy" >Armenian</option>
+                                                                        <option value="ab">Assamese</option>
+                                                                        <option value="aa" >Aymara</option>
+                                                                        <option value="ab">Azerbaijani</option>
+                                                                        <option value="aa" >Bashkir</option>
+                                                                        <option value="ab">Basque</option>
+                                                                        <option value="aa" >Bengali(Bangla)</option>
+                                                                        <option value="ab">Bhutani</option>
+                                                                        <option value="aa" >Bihari</option>
+                                                                        <option value="ab">Bislama</option>
+                                                                        <option value="aa" >Breton</option>
+                                                                        <option value="ab">Bulgarian</option>
+                                                                        <option value="aa" >Burmese</option>
+                                                                        <option value="ab">Byelorussian(Belarusian)</option>
+                                                                        <option value="aa" >Catalan</option>
+                                                                        <option value="aa" >Cherokee</option>
+                                                                        <option value="aa" >Chewa</option>
+                                                                        <option value="aa" >Chinese</option>
+                                                                        <option value="aa" >Chinese (Simplified)</option>
+                                                                        <option value="aa" >Chinese (Traditional)</option>
+                                                                        <option value="aa" >Croatian</option>
+                                                                        <option value="aa" >Czech</option>
+                                                                        <option value="aa" >Danish</option>
+                                                                        <option value="aa" >Divehi</option>
+                                                                        <option value="aa" >Dutch</option>
+                                                                        <option value="aa" >Edo</option>
+                                                                        <option value="aa" >English</option>
+                                                                        <option value="aa" >Esperanto</option>
+                                                                        <option value="aa" >Estonian</option>
+                                                                        <option value="aa" >Faeroese</option>
+                                                                        <option value="aa" >Farsi</option>
+                                                                        <option value="aa" >Fiji</option>
+                                                                        <option value="aa" >Finnish</option>
+                                                                        <option value="aa" >Flemish</option>
+                                                                        <option value="aa" >French</option>
+                                                                        <option value="aa" >Frisian</option>
+                                                                        <option value="aa" >Fulfulde</option>
+                                                                        <option value="aa" >Galician</option>
+                                                                        <option value="aa" >Gaelic (Scottish)</option>
+                                                                        <option value="aa" >Gaelic(Manx)</option>
+                                                                        <option value="aa" >Georgian</option>
+                                                                        <option value="aa" >German</option>
+                                                                        <option value="aa" >Greek</option>
+                                                                        <option value="aa" >Greenlandic</option>
+                                                                        <option value="aa" >Guarani</option>
+                                                                        <option value="aa" >Gujarati</option>
+                                                                        <option value="aa" >Haitian Creole</option>
+                                                                        <option value="aa" >Hausa</option>
+                                                                        <option value="aa" >Hawaiian</option>
+                                                                        <option value="aa" >Hebrew</option>
+                                                                        <option value="aa" >Hindi</option>
+                                                                        <option value="aa" >Hungarian</option>
+                                                                        <option value="aa" >Ibibio</option>
+                                                                        <option value="aa" >Icelandic</option>
+                                                                        <option value="aa" >Ido</option>
+                                                                        <option value="aa" >Igbo</option>
+                                                                        <option value="aa" >Indonesian</option>
+                                                                        <option value="aa" >Interlingua</option>
+                                                                        <option value="aa" >Interlingue</option>
+                                                                        <option value="aa" >Inuktitut</option>
+                                                                        <option value="aa" >Inupiak</option>
+                                                                        <option value="aa" >Irish</option>
+                                                                        <option value="aa" >Italian</option>
+                                                                        <option value="aa" >Japanese</option>
+                                                                        <option value="aa" >Javanese</option>
+                                                                        <option value="aa" >Kannada</option>
+                                                                        <option value="aa" >Kanuri</option>
+                                                                        <option value="aa" >Kashmiri</option>
+                                                                        <option value="aa" >Kazakh</option>
+                                                                        <option value="aa" >Kinyarwanda(Ruanda)</option>
+                                                                        <option value="aa" >Kirghiz</option>
+                                                                        <option value="aa" >Kirundi(Rundi)</option>
+                                                                        <option value="aa" >Konkani</option>
+                                                                        <option value="aa" >Korean</option>
+                                                                        <option value="aa" >Kurdish</option>
+                                                                        <option value="aa" >Laothian</option>
+                                                                        <option value="aa" >Latin</option>
+                                                                        <option value="aa" >Latvian (Lettish)</option>
+                                                                        <option value="aa" >Limburgish( Limburger)</option>
+                                                                        <option value="aa" >Lingala</option>
+                                                                        <option value="aa" >Lithuanian</option>
+                                                                        <option value="aa" >Macedonian</option>
+                                                                        <option value="aa" >Malagasy</option>
+                                                                        <option value="aa" >Malay</option>
+                                                                        <option value="aa" >Malayalam</option>
+                                                                        <option value="aa" >Maltese</option>
+                                                                        <option value="aa" >Maori</option>
+                                                                        <option value="aa" >Marathi</option>
+                                                                        <option value="aa" >Moldavian</option>
+                                                                        <option value="aa" >Mongolian</option>
+                                                                        <option value="aa" >Nauru</option>
+                                                                        <option value="aa" >Nepali</option>
+                                                                        <option value="aa" >Norwegian</option>
+                                                                        <option value="aa" >Occitan</option>
+                                                                        <option value="aa" >Oriya</option>
+                                                                        <option value="aa" >Oromo(Afaan Oromo)</option>
+                                                                        <option value="aa" >Papiamentu</option>
+                                                                        <option value="aa" >Pashto(Pushto)</option>
+                                                                        <option value="aa" >Polish</option>
+                                                                        <option value="aa" >Portuguese</option>
+                                                                        <option value="aa" >Punjabi</option>
+                                                                        <option value="aa" >Quechua</option>
+                                                                        <option value="aa" >Rhaeto-Romance</option>
+                                                                        <option value="aa" >Romanian</option>
+                                                                        <option value="aa" >Russian</option>
+                                                                        <option value="aa" >Sami(Lappish)</option>
+                                                                        <option value="aa" >Samoan</option>
+                                                                        <option value="aa" >Sangro</option>
+                                                                        <option value="aa" >Sanskrit</option>
+                                                                        <option value="aa" >Serbian</option>
+                                                                        <option value="aa" >Serbo-Croatian</option>
+                                                                        <option value="aa" >Sesotho</option>
+                                                                        <option value="aa" >Setswana</option>
+                                                                        <option value="aa" >Shona</option>
+                                                                        <option value="aa" >Sichuan Yi</option>
+                                                                        <option value="aa" >Sindhi</option>
+                                                                        <option value="aa" >Sinhalese</option>
+                                                                        <option value="aa" >Siswati</option>
+                                                                        <option value="aa" >Slovak</option>
+                                                                        <option value="aa" >Slovenian</option>
+                                                                        <option value="aa" >Somali</option>
+                                                                        <option value="aa" >Spanish</option>
+                                                                        <option value="aa" >Sundanese</option>
+                                                                        <option value="aa" >Swahili(Kiswahili)</option>
+                                                                        <option value="aa" >Swedish</option>
+                                                                        <option value="aa" >Syriac</option>
+                                                                        <option value="aa" >Tagalog</option>
+                                                                        <option value="aa" >Tajik</option>
+                                                                        <option value="aa" >Tamazight</option>
+                                                                        <option value="aa" >Tamil</option>
+                                                                        <option value="aa" >Tatar</option>
+                                                                        <option value="aa" >Telugu</option>
+                                                                        <option value="aa" >Thai</option>
+                                                                        <option value="aa" >Tibetan</option>
+                                                                        <option value="aa" >Tigrinya</option>
+                                                                        <option value="aa" >Tonga</option>
+                                                                        <option value="aa" >Tsonga</option>
+                                                                        <option value="aa" >Turkish</option>
+                                                                        <option value="aa" >Turkmen</option>
+                                                                        <option value="aa" >Twi</option>
+                                                                        <option value="aa" >Uighur</option>
+                                                                        <option value="aa" >Ukrainian</option>
+                                                                        <option value="aa" >Urdu</option>
+                                                                        <option value="aa" >Uzbek</option>
+                                                                        <option value="aa" >Venda</option>
+                                                                        <option value="aa" >Vietnamese</option>
+                                                                        <option value="aa" >Volapük</option>
+                                                                        <option value="aa" >Wallon</option>
+                                                                        <option value="aa" >Welsh</option>
+                                                                        <option value="aa" >Wolof</option>
+                                                                        <option value="aa" >Xhosa</option>
+                                                                        <option value="aa" >Yi</option>
+                                                                        <option value="aa" >Yiddish</option>
+                                                                        <option value="aa" >Yoruba</option>
+                                                                        <option value="aa" >Zulu</option>
+                                                                    </optgroup>
+
+                                                                </select>
+                                                            </div>
                                                                 </div>
-                                                            </div>
+                                                            <!--End Languages-->
+                                                            <!--Subtitles Languages-->
                                                             <div class="form-group">
-                                                                <label class="col-md-2 control-label">Available Date:
+                                                                <label   class="col-md-2 control-label">Subtitles (Languages):
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="col-md-10">
-                                                                    <div class="input-group input-large date-picker input-daterange" data-date="10/11/2012" data-date-format="mm/dd/yyyy">
-                                                                        <input type="text" class="form-control" name="product[available_from]">
-                                                                        <span class="input-group-addon"> to </span>
-                                                                        <input type="text" class="form-control" name="product[available_to]"> </div>
-                                                                    <span class="help-block"> availability daterange. </span>
-                                                                </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">SKU:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <input type="text" class="form-control" name="product[sku]" placeholder=""> </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Price:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <input type="text" class="form-control" name="product[price]" placeholder=""> </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Tax Class:
-                                                                    <span class="required"> * </span>
-                                                                </label>
-                                                                <div class="col-md-10">
-                                                                    <select class="table-group-action-input form-control input-medium" name="product[tax_class]">
-                                                                        <option value="">Select...</option>
-                                                                        <option value="1">None</option>
-                                                                        <option value="0">Taxable Goods</option>
-                                                                        <option value="0">Shipping</option>
-                                                                        <option value="0">USA</option>
+                                                                    <select  id="multiple1" class=" form-control select2-multiple" multiple>
+                                                                        <optgroup label="Subtitles Languages" >
+                                                                            <option value="ab">Abkhazian</option>
+                                                                            <option value="aa" >Afar</option>
+                                                                            <option value="ab">Abkhazian</option>
+                                                                            <option value="af" >Afrikaans</option>
+                                                                            <option value="sq">Albanian</option>
+                                                                            <option value="aa" >Amharic</option>
+                                                                            <option value="am">Abkhazian</option>
+                                                                            <option value="ar" >Arabic</option>
+                                                                            <option value="an">Aragonese</option>
+                                                                            <option value="hy" >Armenian</option>
+                                                                            <option value="ab">Assamese</option>
+                                                                            <option value="aa" >Aymara</option>
+                                                                            <option value="ab">Azerbaijani</option>
+                                                                            <option value="aa" >Bashkir</option>
+                                                                            <option value="ab">Basque</option>
+                                                                            <option value="aa" >Bengali(Bangla)</option>
+                                                                            <option value="ab">Bhutani</option>
+                                                                            <option value="aa" >Bihari</option>
+                                                                            <option value="ab">Bislama</option>
+                                                                            <option value="aa" >Breton</option>
+                                                                            <option value="ab">Bulgarian</option>
+                                                                            <option value="aa" >Burmese</option>
+                                                                            <option value="ab">Byelorussian(Belarusian)</option>
+                                                                            <option value="aa" >Catalan</option>
+                                                                            <option value="aa" >Cherokee</option>
+                                                                            <option value="aa" >Chewa</option>
+                                                                            <option value="aa" >Chinese</option>
+                                                                            <option value="aa" >Chinese (Simplified)</option>
+                                                                            <option value="aa" >Chinese (Traditional)</option>
+                                                                            <option value="aa" >Croatian</option>
+                                                                            <option value="aa" >Czech</option>
+                                                                            <option value="aa" >Danish</option>
+                                                                            <option value="aa" >Divehi</option>
+                                                                            <option value="aa" >Dutch</option>
+                                                                            <option value="aa" >Edo</option>
+                                                                            <option value="aa" >English</option>
+                                                                            <option value="aa" >Esperanto</option>
+                                                                            <option value="aa" >Estonian</option>
+                                                                            <option value="aa" >Faeroese</option>
+                                                                            <option value="aa" >Farsi</option>
+                                                                            <option value="aa" >Fiji</option>
+                                                                            <option value="aa" >Finnish</option>
+                                                                            <option value="aa" >Flemish</option>
+                                                                            <option value="aa" >French</option>
+                                                                            <option value="aa" >Frisian</option>
+                                                                            <option value="aa" >Fulfulde</option>
+                                                                            <option value="aa" >Galician</option>
+                                                                            <option value="aa" >Gaelic (Scottish)</option>
+                                                                            <option value="aa" >Gaelic(Manx)</option>
+                                                                            <option value="aa" >Georgian</option>
+                                                                            <option value="aa" >German</option>
+                                                                            <option value="aa" >Greek</option>
+                                                                            <option value="aa" >Greenlandic</option>
+                                                                            <option value="aa" >Guarani</option>
+                                                                            <option value="aa" >Gujarati</option>
+                                                                            <option value="aa" >Haitian Creole</option>
+                                                                            <option value="aa" >Hausa</option>
+                                                                            <option value="aa" >Hawaiian</option>
+                                                                            <option value="aa" >Hebrew</option>
+                                                                            <option value="aa" >Hindi</option>
+                                                                            <option value="aa" >Hungarian</option>
+                                                                            <option value="aa" >Ibibio</option>
+                                                                            <option value="aa" >Icelandic</option>
+                                                                            <option value="aa" >Ido</option>
+                                                                            <option value="aa" >Igbo</option>
+                                                                            <option value="aa" >Indonesian</option>
+                                                                            <option value="aa" >Interlingua</option>
+                                                                            <option value="aa" >Interlingue</option>
+                                                                            <option value="aa" >Inuktitut</option>
+                                                                            <option value="aa" >Inupiak</option>
+                                                                            <option value="aa" >Irish</option>
+                                                                            <option value="aa" >Italian</option>
+                                                                            <option value="aa" >Japanese</option>
+                                                                            <option value="aa" >Javanese</option>
+                                                                            <option value="aa" >Kannada</option>
+                                                                            <option value="aa" >Kanuri</option>
+                                                                            <option value="aa" >Kashmiri</option>
+                                                                            <option value="aa" >Kazakh</option>
+                                                                            <option value="aa" >Kinyarwanda(Ruanda)</option>
+                                                                            <option value="aa" >Kirghiz</option>
+                                                                            <option value="aa" >Kirundi(Rundi)</option>
+                                                                            <option value="aa" >Konkani</option>
+                                                                            <option value="aa" >Korean</option>
+                                                                            <option value="aa" >Kurdish</option>
+                                                                            <option value="aa" >Laothian</option>
+                                                                            <option value="aa" >Latin</option>
+                                                                            <option value="aa" >Latvian (Lettish)</option>
+                                                                            <option value="aa" >Limburgish( Limburger)</option>
+                                                                            <option value="aa" >Lingala</option>
+                                                                            <option value="aa" >Lithuanian</option>
+                                                                            <option value="aa" >Macedonian</option>
+                                                                            <option value="aa" >Malagasy</option>
+                                                                            <option value="aa" >Malay</option>
+                                                                            <option value="aa" >Malayalam</option>
+                                                                            <option value="aa" >Maltese</option>
+                                                                            <option value="aa" >Maori</option>
+                                                                            <option value="aa" >Marathi</option>
+                                                                            <option value="aa" >Moldavian</option>
+                                                                            <option value="aa" >Mongolian</option>
+                                                                            <option value="aa" >Nauru</option>
+                                                                            <option value="aa" >Nepali</option>
+                                                                            <option value="aa" >Norwegian</option>
+                                                                            <option value="aa" >Occitan</option>
+                                                                            <option value="aa" >Oriya</option>
+                                                                            <option value="aa" >Oromo(Afaan Oromo)</option>
+                                                                            <option value="aa" >Papiamentu</option>
+                                                                            <option value="aa" >Pashto(Pushto)</option>
+                                                                            <option value="aa" >Polish</option>
+                                                                            <option value="aa" >Portuguese</option>
+                                                                            <option value="aa" >Punjabi</option>
+                                                                            <option value="aa" >Quechua</option>
+                                                                            <option value="aa" >Rhaeto-Romance</option>
+                                                                            <option value="aa" >Romanian</option>
+                                                                            <option value="aa" >Russian</option>
+                                                                            <option value="aa" >Sami(Lappish)</option>
+                                                                            <option value="aa" >Samoan</option>
+                                                                            <option value="aa" >Sangro</option>
+                                                                            <option value="aa" >Sanskrit</option>
+                                                                            <option value="aa" >Serbian</option>
+                                                                            <option value="aa" >Serbo-Croatian</option>
+                                                                            <option value="aa" >Sesotho</option>
+                                                                            <option value="aa" >Setswana</option>
+                                                                            <option value="aa" >Shona</option>
+                                                                            <option value="aa" >Sichuan Yi</option>
+                                                                            <option value="aa" >Sindhi</option>
+                                                                            <option value="aa" >Sinhalese</option>
+                                                                            <option value="aa" >Siswati</option>
+                                                                            <option value="aa" >Slovak</option>
+                                                                            <option value="aa" >Slovenian</option>
+                                                                            <option value="aa" >Somali</option>
+                                                                            <option value="aa" >Spanish</option>
+                                                                            <option value="aa" >Sundanese</option>
+                                                                            <option value="aa" >Swahili(Kiswahili)</option>
+                                                                            <option value="aa" >Swedish</option>
+                                                                            <option value="aa" >Syriac</option>
+                                                                            <option value="aa" >Tagalog</option>
+                                                                            <option value="aa" >Tajik</option>
+                                                                            <option value="aa" >Tamazight</option>
+                                                                            <option value="aa" >Tamil</option>
+                                                                            <option value="aa" >Tatar</option>
+                                                                            <option value="aa" >Telugu</option>
+                                                                            <option value="aa" >Thai</option>
+                                                                            <option value="aa" >Tibetan</option>
+                                                                            <option value="aa" >Tigrinya</option>
+                                                                            <option value="aa" >Tonga</option>
+                                                                            <option value="aa" >Tsonga</option>
+                                                                            <option value="aa" >Turkish</option>
+                                                                            <option value="aa" >Turkmen</option>
+                                                                            <option value="aa" >Twi</option>
+                                                                            <option value="aa" >Uighur</option>
+                                                                            <option value="aa" >Ukrainian</option>
+                                                                            <option value="aa" >Urdu</option>
+                                                                            <option value="aa" >Uzbek</option>
+                                                                            <option value="aa" >Venda</option>
+                                                                            <option value="aa" >Vietnamese</option>
+                                                                            <option value="aa" >Volapük</option>
+                                                                            <option value="aa" >Wallon</option>
+                                                                            <option value="aa" >Welsh</option>
+                                                                            <option value="aa" >Wolof</option>
+                                                                            <option value="aa" >Xhosa</option>
+                                                                            <option value="aa" >Yi</option>
+                                                                            <option value="aa" >Yiddish</option>
+                                                                            <option value="aa" >Yoruba</option>
+                                                                            <option value="aa" >Zulu</option>
+                                                                        </optgroup>
+
                                                                     </select>
                                                                 </div>
                                                             </div>
+                                                            <!--End Subtitle Languages-->
+                                                            <!--Duration-->
                                                             <div class="form-group">
-                                                                <label class="col-md-2 control-label">Status:
+                                                                <label class="col-md-2 control-label">Duration:
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="col-md-10">
-                                                                    <select class="table-group-action-input form-control input-medium" name="product[status]">
-                                                                        <option value="">Select...</option>
-                                                                        <option value="1">Published</option>
-                                                                        <option value="0">Not Published</option>
+                                                                    <input type="number" class="form-control" name="film[film_duration]" min="0">
+                                                                </div>
+                                                            </div>
+                                                            <!--End Duration-->
+                                                            <!--Country Of Production-->
+                                                            <div class="form-group">
+                                                                <label   class="col-md-2 control-label">Country of Production:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select  id="multiple2" class=" form-control select2-multiple" multiple>
+                                                                        <optgroup label="Countries" >
+                                                                            <option value="AF">Afghanistan</option>
+                                                                            <option value="AX">Åland Islands</option>
+                                                                            <option value="AL">Albania</option>
+                                                                            <option value="DZ">Algeria</option>
+                                                                            <option value="AS">American Samoa</option>
+                                                                            <option value="AD">Andorra</option>
+                                                                            <option value="AO">Angola</option>
+                                                                            <option value="AI">Anguilla</option>
+                                                                            <option value="AQ">Antarctica</option>
+                                                                            <option value="AG">Antigua and Barbuda</option>
+                                                                            <option value="AR">Argentina</option>
+                                                                            <option value="AM">Armenia</option>
+                                                                            <option value="AW">Aruba</option>
+                                                                            <option value="AU">Australia</option>
+                                                                            <option value="AT">Austria</option>
+                                                                            <option value="AZ">Azerbaijan</option>
+                                                                            <option value="BS">Bahamas</option>
+                                                                            <option value="BH">Bahrain</option>
+                                                                            <option value="BD">Bangladesh</option>
+                                                                            <option value="BB">Barbados</option>
+                                                                            <option value="BY">Belarus</option>
+                                                                            <option value="BE">Belgium</option>
+                                                                            <option value="BZ">Belize</option>
+                                                                            <option value="BJ">Benin</option>
+                                                                            <option value="BM">Bermuda</option>
+                                                                            <option value="BT">Bhutan</option>
+                                                                            <option value="BO">Bolivia, Plurinational State of</option>
+                                                                            <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                                                            <option value="BA">Bosnia and Herzegovina</option>
+                                                                            <option value="BW">Botswana</option>
+                                                                            <option value="BV">Bouvet Island</option>
+                                                                            <option value="BR">Brazil</option>
+                                                                            <option value="IO">British Indian Ocean Territory</option>
+                                                                            <option value="BN">Brunei Darussalam</option>
+                                                                            <option value="BG">Bulgaria</option>
+                                                                            <option value="BF">Burkina Faso</option>
+                                                                            <option value="BI">Burundi</option>
+                                                                            <option value="KH">Cambodia</option>
+                                                                            <option value="CM">Cameroon</option>
+                                                                            <option value="CA">Canada</option>
+                                                                            <option value="CV">Cape Verde</option>
+                                                                            <option value="KY">Cayman Islands</option>
+                                                                            <option value="CF">Central African Republic</option>
+                                                                            <option value="TD">Chad</option>
+                                                                            <option value="CL">Chile</option>
+                                                                            <option value="CN">China</option>
+                                                                            <option value="CX">Christmas Island</option>
+                                                                            <option value="CC">Cocos (Keeling) Islands</option>
+                                                                            <option value="CO">Colombia</option>
+                                                                            <option value="KM">Comoros</option>
+                                                                            <option value="CG">Congo</option>
+                                                                            <option value="CD">Congo, the Democratic Republic of the</option>
+                                                                            <option value="CK">Cook Islands</option>
+                                                                            <option value="CR">Costa Rica</option>
+                                                                            <option value="CI">Côte d'Ivoire</option>
+                                                                            <option value="HR">Croatia</option>
+                                                                            <option value="CU">Cuba</option>
+                                                                            <option value="CW">Curaçao</option>
+                                                                            <option value="CY">Cyprus</option>
+                                                                            <option value="CZ">Czech Republic</option>
+                                                                            <option value="DK">Denmark</option>
+                                                                            <option value="DJ">Djibouti</option>
+                                                                            <option value="DM">Dominica</option>
+                                                                            <option value="DO">Dominican Republic</option>
+                                                                            <option value="EC">Ecuador</option>
+                                                                            <option value="EG">Egypt</option>
+                                                                            <option value="SV">El Salvador</option>
+                                                                            <option value="GQ">Equatorial Guinea</option>
+                                                                            <option value="ER">Eritrea</option>
+                                                                            <option value="EE">Estonia</option>
+                                                                            <option value="ET">Ethiopia</option>
+                                                                            <option value="FK">Falkland Islands (Malvinas)</option>
+                                                                            <option value="FO">Faroe Islands</option>
+                                                                            <option value="FJ">Fiji</option>
+                                                                            <option value="FI">Finland</option>
+                                                                            <option value="FR">France</option>
+                                                                            <option value="GF">French Guiana</option>
+                                                                            <option value="PF">French Polynesia</option>
+                                                                            <option value="TF">French Southern Territories</option>
+                                                                            <option value="GA">Gabon</option>
+                                                                            <option value="GM">Gambia</option>
+                                                                            <option value="GE">Georgia</option>
+                                                                            <option value="DE">Germany</option>
+                                                                            <option value="GH">Ghana</option>
+                                                                            <option value="GI">Gibraltar</option>
+                                                                            <option value="GR">Greece</option>
+                                                                            <option value="GL">Greenland</option>
+                                                                            <option value="GD">Grenada</option>
+                                                                            <option value="GP">Guadeloupe</option>
+                                                                            <option value="GU">Guam</option>
+                                                                            <option value="GT">Guatemala</option>
+                                                                            <option value="GG">Guernsey</option>
+                                                                            <option value="GN">Guinea</option>
+                                                                            <option value="GW">Guinea-Bissau</option>
+                                                                            <option value="GY">Guyana</option>
+                                                                            <option value="HT">Haiti</option>
+                                                                            <option value="HM">Heard Island and McDonald Islands</option>
+                                                                            <option value="VA">Holy See (Vatican City State)</option>
+                                                                            <option value="HN">Honduras</option>
+                                                                            <option value="HK">Hong Kong</option>
+                                                                            <option value="HU">Hungary</option>
+                                                                            <option value="IS">Iceland</option>
+                                                                            <option value="IN">India</option>
+                                                                            <option value="ID">Indonesia</option>
+                                                                            <option value="IR">Iran, Islamic Republic of</option>
+                                                                            <option value="IQ">Iraq</option>
+                                                                            <option value="IE">Ireland</option>
+                                                                            <option value="IM">Isle of Man</option>
+                                                                            <option value="IL">Israel</option>
+                                                                            <option value="IT">Italy</option>
+                                                                            <option value="JM">Jamaica</option>
+                                                                            <option value="JP">Japan</option>
+                                                                            <option value="JE">Jersey</option>
+                                                                            <option value="JO">Jordan</option>
+                                                                            <option value="KZ">Kazakhstan</option>
+                                                                            <option value="KE">Kenya</option>
+                                                                            <option value="KI">Kiribati</option>
+                                                                            <option value="KP">Korea, Democratic People's Republic of</option>
+                                                                            <option value="KR">Korea, Republic of</option>
+                                                                            <option value="KW">Kuwait</option>
+                                                                            <option value="KG">Kyrgyzstan</option>
+                                                                            <option value="LA">Lao People's Democratic Republic</option>
+                                                                            <option value="LV">Latvia</option>
+                                                                            <option value="LB">Lebanon</option>
+                                                                            <option value="LS">Lesotho</option>
+                                                                            <option value="LR">Liberia</option>
+                                                                            <option value="LY">Libya</option>
+                                                                            <option value="LI">Liechtenstein</option>
+                                                                            <option value="LT">Lithuania</option>
+                                                                            <option value="LU">Luxembourg</option>
+                                                                            <option value="MO">Macao</option>
+                                                                            <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                                                            <option value="MG">Madagascar</option>
+                                                                            <option value="MW">Malawi</option>
+                                                                            <option value="MY">Malaysia</option>
+                                                                            <option value="MV">Maldives</option>
+                                                                            <option value="ML">Mali</option>
+                                                                            <option value="MT">Malta</option>
+                                                                            <option value="MH">Marshall Islands</option>
+                                                                            <option value="MQ">Martinique</option>
+                                                                            <option value="MR">Mauritania</option>
+                                                                            <option value="MU">Mauritius</option>
+                                                                            <option value="YT">Mayotte</option>
+                                                                            <option value="MX">Mexico</option>
+                                                                            <option value="FM">Micronesia, Federated States of</option>
+                                                                            <option value="MD">Moldova, Republic of</option>
+                                                                            <option value="MC">Monaco</option>
+                                                                            <option value="MN">Mongolia</option>
+                                                                            <option value="ME">Montenegro</option>
+                                                                            <option value="MS">Montserrat</option>
+                                                                            <option value="MA">Morocco</option>
+                                                                            <option value="MZ">Mozambique</option>
+                                                                            <option value="MM">Myanmar</option>
+                                                                            <option value="NA">Namibia</option>
+                                                                            <option value="NR">Nauru</option>
+                                                                            <option value="NP">Nepal</option>
+                                                                            <option value="NL">Netherlands</option>
+                                                                            <option value="NC">New Caledonia</option>
+                                                                            <option value="NZ">New Zealand</option>
+                                                                            <option value="NI">Nicaragua</option>
+                                                                            <option value="NE">Niger</option>
+                                                                            <option value="NG">Nigeria</option>
+                                                                            <option value="NU">Niue</option>
+                                                                            <option value="NF">Norfolk Island</option>
+                                                                            <option value="MP">Northern Mariana Islands</option>
+                                                                            <option value="NO">Norway</option>
+                                                                            <option value="OM">Oman</option>
+                                                                            <option value="PK">Pakistan</option>
+                                                                            <option value="PW">Palau</option>
+                                                                            <option value="PS">Palestinian Territory, Occupied</option>
+                                                                            <option value="PA">Panama</option>
+                                                                            <option value="PG">Papua New Guinea</option>
+                                                                            <option value="PY">Paraguay</option>
+                                                                            <option value="PE">Peru</option>
+                                                                            <option value="PH">Philippines</option>
+                                                                            <option value="PN">Pitcairn</option>
+                                                                            <option value="PL">Poland</option>
+                                                                            <option value="PT">Portugal</option>
+                                                                            <option value="PR">Puerto Rico</option>
+                                                                            <option value="QA">Qatar</option>
+                                                                            <option value="RE">Réunion</option>
+                                                                            <option value="RO">Romania</option>
+                                                                            <option value="RU">Russian Federation</option>
+                                                                            <option value="RW">Rwanda</option>
+                                                                            <option value="BL">Saint Barthélemy</option>
+                                                                            <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                                                            <option value="KN">Saint Kitts and Nevis</option>
+                                                                            <option value="LC">Saint Lucia</option>
+                                                                            <option value="MF">Saint Martin (French part)</option>
+                                                                            <option value="PM">Saint Pierre and Miquelon</option>
+                                                                            <option value="VC">Saint Vincent and the Grenadines</option>
+                                                                            <option value="WS">Samoa</option>
+                                                                            <option value="SM">San Marino</option>
+                                                                            <option value="ST">Sao Tome and Principe</option>
+                                                                            <option value="SA">Saudi Arabia</option>
+                                                                            <option value="SN">Senegal</option>
+                                                                            <option value="RS">Serbia</option>
+                                                                            <option value="SC">Seychelles</option>
+                                                                            <option value="SL">Sierra Leone</option>
+                                                                            <option value="SG">Singapore</option>
+                                                                            <option value="SX">Sint Maarten (Dutch part)</option>
+                                                                            <option value="SK">Slovakia</option>
+                                                                            <option value="SI">Slovenia</option>
+                                                                            <option value="SB">Solomon Islands</option>
+                                                                            <option value="SO">Somalia</option>
+                                                                            <option value="ZA">South Africa</option>
+                                                                            <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                                            <option value="SS">South Sudan</option>
+                                                                            <option value="ES">Spain</option>
+                                                                            <option value="LK">Sri Lanka</option>
+                                                                            <option value="SD">Sudan</option>
+                                                                            <option value="SR">Suriname</option>
+                                                                            <option value="SJ">Svalbard and Jan Mayen</option>
+                                                                            <option value="SZ">Swaziland</option>
+                                                                            <option value="SE">Sweden</option>
+                                                                            <option value="CH">Switzerland</option>
+                                                                            <option value="SY">Syrian Arab Republic</option>
+                                                                            <option value="TW">Taiwan, Province of China</option>
+                                                                            <option value="TJ">Tajikistan</option>
+                                                                            <option value="TZ">Tanzania, United Republic of</option>
+                                                                            <option value="TH">Thailand</option>
+                                                                            <option value="TL">Timor-Leste</option>
+                                                                            <option value="TG">Togo</option>
+                                                                            <option value="TK">Tokelau</option>
+                                                                            <option value="TO">Tonga</option>
+                                                                            <option value="TT">Trinidad and Tobago</option>
+                                                                            <option value="TN">Tunisia</option>
+                                                                            <option value="TR">Turkey</option>
+                                                                            <option value="TM">Turkmenistan</option>
+                                                                            <option value="TC">Turks and Caicos Islands</option>
+                                                                            <option value="TV">Tuvalu</option>
+                                                                            <option value="UG">Uganda</option>
+                                                                            <option value="UA">Ukraine</option>
+                                                                            <option value="AE">United Arab Emirates</option>
+                                                                            <option value="GB">United Kingdom</option>
+                                                                            <option value="US">United States</option>
+                                                                            <option value="UM">United States Minor Outlying Islands</option>
+                                                                            <option value="UY">Uruguay</option>
+                                                                            <option value="UZ">Uzbekistan</option>
+                                                                            <option value="VU">Vanuatu</option>
+                                                                            <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                                                            <option value="VN">Viet Nam</option>
+                                                                            <option value="VG">Virgin Islands, British</option>
+                                                                            <option value="VI">Virgin Islands, U.S.</option>
+                                                                            <option value="WF">Wallis and Futuna</option>
+                                                                            <option value="EH">Western Sahara</option>
+                                                                            <option value="YE">Yemen</option>
+                                                                            <option value="ZM">Zambia</option>
+                                                                            <option value="ZW">Zimbabwe</option>
+
+                                                                        </optgroup>
+
                                                                     </select>
                                                                 </div>
                                                             </div>
+                                                            <!--End Country of Production-->
+
+                                                            <!--Categories-->
+                                                            <div class="form-group">
+                                                                <label   class="col-md-2 control-label">Categories:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select  id="multiple3" class=" form-control select2-multiple" multiple>
+                                                                        <optgroup label="Select Categories" >
+                                                                            <option value="animation">Animation</option>
+                                                                            <option value="documentary">Documentary</option>
+                                                                            <option value="experimental">Experimental</option>
+                                                                            <option value="fantastic">Fantastic</option>
+                                                                            <option value="music_video">Music Video</option>
+                                                                            <option value="other">Other</option>
+                                                                            <option value="terror">Terror</option>
+                                                                        </optgroup>
+
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                            <!--End Categories-->
+                                                            <!--Theme-->
+                                                            <div class="form-group">
+                                                                <label   class="col-md-2 control-label">Themes:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select  id="multiple4" class=" form-control select2-multiple" multiple>
+                                                                        <optgroup label="Select Themes" >
+                                                                            <option value="adolescence">Adolescence</option>
+                                                                            <option value="alcohol">Alcohol</option>
+                                                                            <option value="ancient">Ancient</option>
+                                                                            <option value="animals">Animals</option>
+                                                                            <option value="childhood">Childhood</option>
+                                                                            <option value="cinema_beur">Cinema Beur</option>
+                                                                            <option value="cinema_verite">Cinema Verite</option>
+                                                                            <option value="circus">Circus</option>
+                                                                            <option value="country_life">Country Life</option>
+                                                                            <option value="culture">Culture</option>
+                                                                            <option value="dance">Dance</option>
+                                                                            <option value="death">Death</option>
+                                                                            <option value="diary">Diary</option>
+                                                                            <option value="direct_cinema">Direct Cinema</option>
+                                                                            <option value="disability">Disability</option>
+                                                                            <option value="dream">Dream</option>
+                                                                            <option value="drugs">Drugs</option>
+                                                                            <option value="eat_drink">Eat/Drink</option>
+                                                                            <option value="ecology">Ecology</option>
+                                                                            <option value="emigration_inmigration">Emigration/Inmigration</option>
+                                                                            <option value="employment">Employment</option>
+                                                                            <option value="eroticism">Eroticism</option>
+                                                                            <option value="family">Family</option>
+                                                                            <option value="hate">Hate</option>
+                                                                            <option value="historical">Historical</option>
+                                                                            <option value="homosexuality">Homosexuality</option>
+                                                                            <option value="humour">Humour</option>
+                                                                            <option value="indian">Indian</option>
+                                                                            <option value="journey">Journey</option>
+                                                                            <option value="loneliness">Loneliness</option>
+                                                                            <option value="love">Love</option>
+                                                                            <option value="macabre">Macabre</option>
+                                                                            <option value="mafia">Mafia</option>
+                                                                            <option value="music">Music</option>
+                                                                            <option value="nature">Nature</option>
+                                                                            <option value="other">Other</option>
+                                                                            <option value="policial">Policial</option>
+                                                                            <option value="politics">Politics</option>
+                                                                            <option value="poverty">Poverty</option>
+                                                                            <option value="prison">Prison</option>
+                                                                            <option value="queer_cinema">Queer Cinema</option>
+                                                                            <option value="racism">Racism</option>
+                                                                            <option value="relationship">Relationship</option>
+                                                                            <option value="religion">Religion</option>
+                                                                            <option value="revenge">Revenge</option>
+                                                                            <option value="school">School</option>
+                                                                            <option value="sexuality">Sexuality</option>
+                                                                            <option value="sports">Sports</option>
+                                                                            <option value="terrorism">Terrorism</option>
+                                                                            <option value="thievery">Thievery</option>
+                                                                            <option value="violence">Violence</option>
+                                                                            <option value="war">War</option>
+
+                                                                        </optgroup>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <!--End Theme-->
+
+                                                            <!--Genres-->
+                                                            <div class="form-group">
+                                                                <label   class="col-md-2 control-label">Genres:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <select  id="multiple5" class=" form-control select2-multiple" multiple>
+                                                                        <optgroup label="Select Genres" >
+                                                                            <option value="action">Action</option>
+                                                                            <option value="adventure">Adventure</option>
+                                                                            <option value="art">Art</option>
+                                                                            <option value="catastrophe">Catastrophe</option>
+                                                                            <option value="children">Children</option>
+                                                                            <option value="choreography">Choreography</option>
+                                                                            <option value="comedy">Comedy</option>
+                                                                            <option value="crime">Crime</option>
+                                                                            <option value="dance">Dance</option>
+                                                                            <option value="drama">Drama</option>
+                                                                            <option value="eroticism">Eroticism</option>
+                                                                            <option value="fantasy">Fantasy</option>
+                                                                            <option value="film_noir">Film Noir</option>
+                                                                            <option value="historical">Historical</option>
+                                                                            <option value="horror">Horror</option>
+                                                                            <option value="human_rights">Human Rights</option>
+                                                                            <option value="melodrama">Melodrama</option>
+                                                                            <option value="mockumentary">Mockumentary</option>
+                                                                            <option value="musical">Musical</option>
+                                                                            <option value="other">Other</option>
+                                                                            <option value="portrait">Portrait</option>
+                                                                            <option value="psychological">Psychological</option>
+                                                                            <option value="reality_recorder">Reality Recorder</option>
+                                                                            <option value="road_movie">Road Movie</option>
+                                                                            <option value="romantic">Romantic</option>
+                                                                            <option value="science_fiction">Science Fiction</option>
+                                                                            <option value="sexual">Sexual</option>
+                                                                            <option value="silent_mMovie">Silent Movie</option>
+                                                                            <option value="sports">Sports</option>
+                                                                            <option value="teen_movie">Teen Movie</option>
+                                                                            <option value="thriller">Thriller</option>
+                                                                            <option value="video_art">Video Art</option>
+                                                                            <option value="war_movie">War Movie</option>
+                                                                            <option value="western">Western</option>
+                                                                            <option value="wildlife_movie">Wildlife Movie</option>
+                                                                        </optgroup>
+
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <!--End Genres-->
+
+                                                            <!--Film School-->
+                                                            <div class="form-body">
+                                                                <div class="form-group">
+                                                                    <label class="col-md-2 control-label">Film School:
+                                                                        <!--<span class="required"> * </span>-->
+                                                                    </label>
+                                                                    <div class="col-md-10">
+                                                                        <input type="text" class="form-control" name="film[film_school]" placeholder="">
+                                                                    </div>
+
+                                                                    <div class="col-md-2">
+
+                                                                    </div>
+
+                                                                    <div class="col-md-10">
+                                                                    <div class="mt-checkbox-list">
+                                                                        <label class="mt-checkbox"> Debut Film
+                                                                            <input type="checkbox" value="1" name="debut_film" />
+                                                                            <span></span>
+                                                                        </label>
+                                                                        <label class="mt-checkbox"> Work in Progress
+                                                                            <input type="checkbox" value="1" name="work_in_progress" />
+                                                                            <span></span>
+                                                                        </label>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+
+
+
+
+
+                                                            <!--End Film School-->
+
+                                                            <!--Short Synopsis-->
+
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Short Synopsis:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="short-text-area form-control" rows="3"></textarea>
+                                                                    <span id="chars">250</span> characters remaining
+                                                                </div>
+                                                            </div>
+
+                                                            <!--End Short Synopsis-->
+
+                                                            <!--Long Synopsis-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Long Synopsis:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="long-text-area-a form-control" rows="5"></textarea>
+                                                                    <span id="chars_a">0</span> characters
+                                                                </div>
+                                                            </div>
+                                                            <!--End Long Synopsis-->
+
+                                                            <!--Short Synopsis English-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Short Synopsis (English):
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="short-text-area1 form-control" rows="3"></textarea>
+                                                                    <span id="chars1">250</span> characters remaining
+                                                                </div>
+                                                            </div>
+                                                            <!--End Short Synopsis English-->
+
+                                                            <!--Long Synopsis English-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Long Synopsis (English):
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <textarea class="long-text-area-b form-control" rows="5"></textarea>
+                                                                    <span id="chars_b">0</span> characters
+                                                                </div>
+                                                            </div>
+                                                            <!--End Long Synopsis English-->
+
                                                         </div>
                                                     </div>
                                                     <div class="tab-pane" id="tab_meta">
@@ -631,17 +1386,38 @@
 <!-- Javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/jquery-1.11.2.min.js"></script>
+<!--<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>-->
 <!--plugins-->
 <script src="js/bootstrap.min.js"></script>
-<script src="js/datatable.js"></script>
-<script src="js/datatables/datatables.min.js"></script>
-<script src="js/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-<script src="js/bootstrap-daterangepicker/daterangepicker.min.js"></script>
-<script src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
-<script src="js/bootstrap-maxlength/bootstrap-maxlength.min.js"></script>
-<!--Custom Scripts-->
+<script src="js/js.cookie.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="js/vendors/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+<!-- BEGIN PAGE LEVEL PLUGINS -->
+<!--<script src="js/vendors/moment.min.js" type="text/javascript"></script>-->
+<!--<script src="js/vendors/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>-->
+<script src="js/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<!--<script src="js/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>-->
+<!--<script src="js/vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>-->
+<!--<script src="js/vendors/clockface/js/clockface.js" type="text/javascript"></script>-->
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN THEME GLOBAL SCRIPTS -->
+<script src="js/vendors/scripts/app.min.js" type="text/javascript"></script>
+<!-- END THEME GLOBAL SCRIPTS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="js/vendors/scripts/components-date-time-pickers.min.js" type="text/javascript"></script>
+<script src="js/vendors/select2/js/select2.full.min.js"></script>
+<script src="js/vendors/scripts/components-select2.min.js" type="text/javascript"></script>
+
+<!-- END PAGE LEVEL SCRIPTS -->
+<!-- BEGIN THEME LAYOUT SCRIPTS -->
+<!--<script src="js/vendors/scripts/layout.min.js" type="text/javascript"></script>-->
+<!--<script src="js/vendors/scripts/demo.min.js" type="text/javascript"></script>-->
+<!--<script src="js/vendors/scripts/quick-sidebar.min.js" type="text/javascript"></script>-->
+<!-- END THEME LAYOUT SCRIPTS -->
+
 <script src="js/main.js"></script>
 <script src="js/create_edit_film.js"></script>
 

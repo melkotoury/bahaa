@@ -1,139 +1,175 @@
-/**
- * Created by Mahmoud El Kotoury on 10/8/2016.
- */
-var EcommerceProductsEdit = function() {
-    var e = function() {
-            var e = new plupload.Uploader({
-                runtimes: "html5,flash,silverlight,html4",
-                browse_button: document.getElementById("tab_images_uploader_pickfiles"),
-                container: document.getElementById("tab_images_uploader_container"),
-                url: "assets/plugins/plupload/examples/upload.php",
-                filters: {
-                    max_file_size: "10mb",
-                    mime_types: [{
-                        title: "Image files",
-                        extensions: "jpg,gif,png"
-                    }, {
-                        title: "Zip files",
-                        extensions: "zip"
-                    }]
+var maxLength = 250;
+$('.short-text-area').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLength-length;
+    $('#chars').text(length);
+});
+
+var maxLength1 = 250;
+$('.short-text-area1').keyup(function() {
+    var length = $(this).val().length;
+    var length = maxLength1-length;
+    $('#chars1').text(length);
+});
+
+var minLength_a = 0;
+$('.long-text-area-a').keyup(function() {
+    var length = $(this).val().length;
+    var length = minLength_a+length;
+    $('#chars_a').text(length);
+});
+var minLength_b = 0;
+$('.long-text-area-b').keyup(function() {
+    var length = $(this).val().length;
+    var length = minLength_b+length;
+    $('#chars_b').text(length);
+});
+var ComponentsDateTimePickers = function() {
+    var t = function() {
+            jQuery().datepicker && $(".date-picker").datepicker({
+                rtl: App.isRTL(),
+                orientation: "left",
+                autoclose: !0
+            }), $(document).scroll(function() {
+                $("#form_modal2 .date-picker").datepicker("place")
+            })
+        },
+        e = function() {
+            jQuery().timepicker && ($(".timepicker-default").timepicker({
+                autoclose: !0,
+                showSeconds: !0,
+                minuteStep: 1
+            }), $(".timepicker-no-seconds").timepicker({
+                autoclose: !0,
+                minuteStep: 5
+            }), $(".timepicker-24").timepicker({
+                autoclose: !0,
+                minuteStep: 5,
+                showSeconds: !1,
+                showMeridian: !1
+            }), $(".timepicker").parent(".input-group").on("click", ".input-group-btn", function(t) {
+                t.preventDefault(), $(this).parent(".input-group").find(".timepicker").timepicker("showWidget")
+            }), $(document).scroll(function() {
+                $("#form_modal4 .timepicker-default, #form_modal4 .timepicker-no-seconds, #form_modal4 .timepicker-24").timepicker("place")
+            }))
+        },
+        o = function() {
+            jQuery().daterangepicker && ($("#defaultrange").daterangepicker({
+                opens: App.isRTL() ? "left" : "right",
+                format: "MM/DD/YYYY",
+                separator: " to ",
+                startDate: moment().subtract("days", 29),
+                endDate: moment(),
+                ranges: {
+                    Today: [moment(), moment()],
+                    Yesterday: [moment().subtract("days", 1), moment().subtract("days", 1)],
+                    "Last 7 Days": [moment().subtract("days", 6), moment()],
+                    "Last 30 Days": [moment().subtract("days", 29), moment()],
+                    "This Month": [moment().startOf("month"), moment().endOf("month")],
+                    "Last Month": [moment().subtract("month", 1).startOf("month"), moment().subtract("month", 1).endOf("month")]
                 },
-                flash_swf_url: "assets/plugins/plupload/js/Moxie.swf",
-                silverlight_xap_url: "assets/plugins/plupload/js/Moxie.xap",
-                init: {
-                    PostInit: function() {
-                        $("#tab_images_uploader_filelist").html(""), $("#tab_images_uploader_uploadfiles").click(function() {
-                            return e.start(), !1
-                        }), $("#tab_images_uploader_filelist").on("click", ".added-files .remove", function() {
-                            e.removeFile($(this).parent(".added-files").attr("id")), $(this).parent(".added-files").remove()
-                        })
-                    },
-                    FilesAdded: function(e, a) {
-                        plupload.each(a, function(e) {
-                            $("#tab_images_uploader_filelist").append('<div class="alert alert-warning added-files" id="uploaded_file_' + e.id + '">' + e.name + "(" + plupload.formatSize(e.size) + ') <span class="status label label-info"></span>&nbsp;<a href="javascript:;" style="margin-top:-5px" class="remove pull-right btn btn-sm red"><i class="fa fa-times"></i> remove</a></div>')
-                        })
-                    },
-                    UploadProgress: function(e, a) {
-                        $("#uploaded_file_" + a.id + " > .status").html(a.percent + "%")
-                    },
-                    FileUploaded: function(e, a, t) {
-                        var t = $.parseJSON(t.response);
-                        if (t.result && "OK" == t.result) {
-                            t.id;
-                            $("#uploaded_file_" + a.id + " > .status").removeClass("label-info").addClass("label-success").html('<i class="fa fa-check"></i> Done')
-                        } else $("#uploaded_file_" + a.id + " > .status").removeClass("label-info").addClass("label-danger").html('<i class="fa fa-warning"></i> Failed'), App.alert({
-                            type: "danger",
-                            message: "One of uploads failed. Please retry.",
-                            closeInSeconds: 10,
-                            icon: "warning"
-                        })
-                    },
-                    Error: function(e, a) {
-                        App.alert({
-                            type: "danger",
-                            message: a.message,
-                            closeInSeconds: 10,
-                            icon: "warning"
-                        })
-                    }
+                minDate: "01/01/2012",
+                maxDate: "12/31/2018"
+            }, function(t, e) {
+                $("#defaultrange input").val(t.format("MMMM D, YYYY") + " - " + e.format("MMMM D, YYYY"))
+            }), $("#defaultrange_modal").daterangepicker({
+                opens: App.isRTL() ? "left" : "right",
+                format: "MM/DD/YYYY",
+                separator: " to ",
+                startDate: moment().subtract("days", 29),
+                endDate: moment(),
+                minDate: "01/01/2012",
+                maxDate: "12/31/2018"
+            }, function(t, e) {
+                $("#defaultrange_modal input").val(t.format("MMMM D, YYYY") + " - " + e.format("MMMM D, YYYY"))
+            }), $("#defaultrange_modal").on("click", function() {
+                $("#daterangepicker_modal").is(":visible") && 0 == $("body").hasClass("modal-open") && $("body").addClass("modal-open")
+            }), $("#reportrange").daterangepicker({
+                opens: App.isRTL() ? "left" : "right",
+                startDate: moment().subtract("days", 29),
+                endDate: moment(),
+                dateLimit: {
+                    days: 60
+                },
+                showDropdowns: !0,
+                showWeekNumbers: !0,
+                timePicker: !1,
+                timePickerIncrement: 1,
+                timePicker12Hour: !0,
+                ranges: {
+                    Today: [moment(), moment()],
+                    Yesterday: [moment().subtract("days", 1), moment().subtract("days", 1)],
+                    "Last 7 Days": [moment().subtract("days", 6), moment()],
+                    "Last 30 Days": [moment().subtract("days", 29), moment()],
+                    "This Month": [moment().startOf("month"), moment().endOf("month")],
+                    "Last Month": [moment().subtract("month", 1).startOf("month"), moment().subtract("month", 1).endOf("month")]
+                },
+                buttonClasses: ["btn"],
+                applyClass: "green",
+                cancelClass: "default",
+                format: "MM/DD/YYYY",
+                separator: " to ",
+                locale: {
+                    applyLabel: "Apply",
+                    fromLabel: "From",
+                    toLabel: "To",
+                    customRangeLabel: "Custom Range",
+                    daysOfWeek: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
+                    monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+                    firstDay: 1
                 }
-            });
-            e.init()
+            }, function(t, e) {
+                $("#reportrange span").html(t.format("MMMM D, YYYY") + " - " + e.format("MMMM D, YYYY"))
+            }), $("#reportrange span").html(moment().subtract("days", 29).format("MMMM D, YYYY") + " - " + moment().format("MMMM D, YYYY")))
         },
         a = function() {
-            var e = new Datatable;
-            e.init({
-                src: $("#datatable_reviews"),
-                onSuccess: function(e) {},
-                onError: function(e) {},
-                loadingMessage: "Loading...",
-                dataTable: {
-                    lengthMenu: [
-                        [10, 20, 50, 100, 150, -1],
-                        [10, 20, 50, 100, 150, "All"]
-                    ],
-                    pageLength: 10,
-                    ajax: {
-                        url: "../demo/ecommerce_product_reviews.php"
-                    },
-                    columnDefs: [{
-                        orderable: !0,
-                        targets: [0]
-                    }],
-                    order: [
-                        [0, "asc"]
-                    ]
-                }
-            })
-        },
-        t = function() {
-            var e = new Datatable;
-            e.init({
-                src: $("#datatable_history"),
-                onSuccess: function(e) {},
-                onError: function(e) {},
-                loadingMessage: "Loading...",
-                dataTable: {
-                    lengthMenu: [
-                        [10, 20, 50, 100, 150, -1],
-                        [10, 20, 50, 100, 150, "All"]
-                    ],
-                    pageLength: 10,
-                    ajax: {
-                        url: "../demo/ecommerce_product_history.php"
-                    },
-                    columnDefs: [{
-                        orderable: !0,
-                        targets: [0]
-                    }],
-                    order: [
-                        [0, "asc"]
-                    ]
-                }
-            })
-        },
-        l = function() {
-            $(".date-picker").datepicker({
-                rtl: App.isRTL(),
-                autoclose: !0
-            }), $(".datetime-picker").datetimepicker({
+            jQuery().datetimepicker && ($(".form_datetime").datetimepicker({
+                autoclose: !0,
                 isRTL: App.isRTL(),
+                format: "dd MM yyyy - hh:ii",
+                pickerPosition: App.isRTL() ? "bottom-right" : "bottom-left"
+            }), $(".form_advance_datetime").datetimepicker({
+                isRTL: App.isRTL(),
+                format: "dd MM yyyy - hh:ii",
                 autoclose: !0,
                 todayBtn: !0,
+                startDate: "2013-02-14 10:00",
                 pickerPosition: App.isRTL() ? "bottom-right" : "bottom-left",
                 minuteStep: 10
-            }), $(".maxlength-handler").maxlength({
-                limitReachedClass: "label label-danger",
-                alwaysShow: !0,
-                threshold: 5
-            })
+            }), $(".form_meridian_datetime").datetimepicker({
+                isRTL: App.isRTL(),
+                format: "dd MM yyyy - HH:ii P",
+                showMeridian: !0,
+                autoclose: !0,
+                pickerPosition: App.isRTL() ? "bottom-right" : "bottom-left",
+                todayBtn: !0
+            }), $("body").removeClass("modal-open"), $(document).scroll(function() {
+                $("#form_modal1 .form_datetime, #form_modal1 .form_advance_datetime, #form_modal1 .form_meridian_datetime").datetimepicker("place")
+            }))
+        },
+        m = function() {
+            jQuery().clockface && ($(".clockface_1").clockface(), $("#clockface_2").clockface({
+                format: "HH:mm",
+                trigger: "manual"
+            }), $("#clockface_2_toggle").click(function(t) {
+                t.stopPropagation(), $("#clockface_2").clockface("toggle")
+            }), $("#clockface_2_modal").clockface({
+                format: "HH:mm",
+                trigger: "manual"
+            }), $("#clockface_2_modal_toggle").click(function(t) {
+                t.stopPropagation(), $("#clockface_2_modal").clockface("toggle")
+            }), $(".clockface_3").clockface({
+                format: "H:mm"
+            }).clockface("show", "14:30"), $(document).scroll(function() {
+                $("#form_modal5 .clockface_1, #form_modal5 #clockface_2_modal").clockface("place")
+            }))
         };
     return {
         init: function() {
-            l(), e(), a(), t()
+            t(), e(), a(), o(), m()
         }
     }
 }();
-jQuery(document).ready(function() {
-    EcommerceProductsEdit.init()
+App.isAngularJsApp() === !1 && jQuery(document).ready(function() {
+    ComponentsDateTimePickers.init()
 });
