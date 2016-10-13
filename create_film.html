@@ -168,7 +168,7 @@
                                                         <a href="#tab_general" data-toggle="tab"> General </a>
                                                     </li>
                                                     <li>
-                                                        <a href="#tab_meta" data-toggle="tab"> Production & Credits </a>
+                                                        <a href="#tab_prod" data-toggle="tab"> Production & Credits </a>
                                                     </li>
                                                     <li>
                                                         <a href="#tab_images" data-toggle="tab"> Images </a>
@@ -1090,30 +1090,277 @@
 
                                                         </div>
                                                     </div>
-                                                    <div class="tab-pane" id="tab_meta">
-                                                        <div class="form-body">
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Meta Title:</label>
-                                                                <div class="col-md-10">
-                                                                    <input type="text" class="form-control maxlength-handler" name="product[meta_title]" maxlength="100" placeholder="">
-                                                                    <span class="help-block"> max 100 chars </span>
+                                                    <div class="tab-pane" id="tab_prod">
+                                                        <!--Message-->
+                                                        <div class="alert alert-success margin-bottom-10">
+                                                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true"></button>
+                                                            <i class="fa fa-warning fa-lg"></i> Add your film crew. The director and producer will be highlighted specially to the festival.
+                                                        </div>
+                                                        <!--End Message-->
+
+                                                        <!-- Director/Producer -->
+
+                                                        <div class="row dir-prod">
+                                                            <div class="col-md-6">
+                                                                <div class="col-md-12">
+                                                                    <a class=" btn orange-default btn-outline sbold" href="modal_ajax_add_director.html" data-target="#ajax" data-toggle="modal"> <i class="fa fa-plus-circle"></i> Add Director </a>
+
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <h4>DIRECTOR:</h4>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-btn">
+                                                                            <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                <i class="fa fa-angle-down"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /btn-group -->
+                                                                        <input type="text" class="form-control" readonly> </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Meta Keywords:</label>
-                                                                <div class="col-md-10">
-                                                                    <textarea class="form-control maxlength-handler" rows="8" name="product[meta_keywords]" maxlength="1000"></textarea>
-                                                                    <span class="help-block"> max 1000 chars </span>
+                                                            <div class="col-md-6">
+                                                                <div class="col-md-12">
+                                                                    <a class=" btn orange-default btn-outline sbold" href="modal_ajax_add_director.html" data-target="#ajax" data-toggle="modal"> <i class="fa fa-plus-circle"></i> Add Producer </a>
+
                                                                 </div>
-                                                            </div>
-                                                            <div class="form-group">
-                                                                <label class="col-md-2 control-label">Meta Description:</label>
-                                                                <div class="col-md-10">
-                                                                    <textarea class="form-control maxlength-handler" rows="8" name="product[meta_description]" maxlength="255"></textarea>
-                                                                    <span class="help-block"> max 255 chars </span>
+                                                                <div class="col-md-12">
+                                                                    <h4>PRODUCER:</h4>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-btn">
+                                                                            <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                <i class="fa fa-angle-down"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /btn-group -->
+                                                                        <input type="text" class="form-control" readonly> </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!--End Director/Producer -->
+                                                        <hr>
+                                                        <!-- Distribution/Production company-->
+                                                        <div class="row dist-prod">
+                                                            <div class="col-md-6">
+                                                                <div class="col-md-12">
+                                                                    <a class=" btn orange-default btn-outline sbold" href="modal_ajax_add_director.html" data-target="#ajax" data-toggle="modal"> <i class="fa fa-plus-circle"></i> Add Distribution Company </a>
+
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <h4>DISTRIBUTION COMPANY:</h4>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-btn">
+                                                                            <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                <i class="fa fa-angle-down"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /btn-group -->
+                                                                        <input type="text" class="form-control" readonly> </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="col-md-12">
+                                                                    <a class=" btn orange-default btn-outline sbold" href="modal_ajax_add_director.html" data-target="#ajax" data-toggle="modal"> <i class="fa fa-plus-circle"></i> Add Production Company </a>
+
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <h4>PRODUCTION COMPANY:</h4>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <div class="input-group">
+                                                                        <div class="input-group-btn">
+                                                                            <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                <i class="fa fa-angle-down"></i>
+                                                                            </button>
+                                                                            <ul class="dropdown-menu">
+
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                </li>
+
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- /btn-group -->
+                                                                        <input type="text" class="form-control" readonly>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div><!--End Distribution/Production company-->
+
+                                                        <hr>
+                                                        <!--Remaining Crew-->
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h4>TECHNICAL & ARTISTIC TEAM: </h4>
+                                                            </div>
+                                                            <div class="col-md-12 margin-10">
+                                                                <div class="col-md-4">
+                                                                    <input type="text" class="form-control" name="" placeholder="First Name">
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <input type="text" class="form-control" name="" placeholder="Last Name">
+
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <select  id="multiple6" class=" form-control select2-multiple" >
+                                                                        <optgroup label="Direction" >
+                                                                            <option value="continuity_script">Continuity Script</option>
+                                                                            <option value="first_assistant_director">First Assistant Director</option>
+                                                                            <option value="second_assistant_director">Second Assistant Director</option>
+                                                                            <option value="second_unit_director">Second Unit Director</option>
+
+                                                                        </optgroup>
+
+                                                                        <optgroup label="Production" >
+                                                                            <option value="continuity_script">Continuity Script</option>
+                                                                            <option value="accounting">Accounting</option>
+                                                                            <option value="associated_producer">Associated Producer</option>
+                                                                            <option value="executive_producer">Executive Producer</option>
+                                                                            <option value="location_manager">Location Manager</option>
+                                                                            <option value="location_scout">Location Scout</option>
+                                                                            <option value="production_assistant">Production Assistant</option>
+                                                                            <option value="production_manager">Production Manager</option>
+                                                                            <option value="technical_director">Technical Director</option>
+                                                                            <option value="transportation">Transportation</option>
+                                                                            </optgroup>
+
+
+                                                                        <optgroup label="Casting & Cast" >
+                                                                            <option value="cast">Cast</option>
+                                                                            <option value="casting_director">Casting Director</option>
+                                                                            <option value="extras">Extras</option>
+                                                                            <option value="lead_actor_actress">Lead Actor / Actress</option>
+                                                                            <option value=""></option>
+                                                                            <option value=""></option>
+                                                                            <option value=""></option>
+                                                                            <option value=""></option>
+                                                                            <option value=""></option>
+
+                                                                        </optgroup>
+                                                                        </select>
+
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-12 margin-10">
+                                                                <div class="col-md-4"></div>
+                                                                <div class="col-md-4"></div>
+                                                                <div class="col-md-2"></div>
+                                                                <div class="col-md-2">
+                                                                    <a class=" btn orange-default btn-outline sbold pull-right" href="" data-target="#ajax" data-toggle=""> <i class="fa fa-plus-circle"></i> Add Member </a>
+
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-md-12 margin-10">
+                                                                <div class="col-md-3"></div>
+                                                                <div class="col-md-6">
+                                                                    <div class="col-md-12 margin-10">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-btn">
+                                                                                <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                    <i class="fa fa-angle-down"></i>
+                                                                                </button>
+                                                                                <ul class="dropdown-menu">
+
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                    </li>
+
+                                                                                </ul>
+                                                                            </div>
+                                                                            <!-- /btn-group -->
+                                                                            <input type="text" class="form-control" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12 margin-10">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-btn">
+                                                                                <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                    <i class="fa fa-angle-down"></i>
+                                                                                </button>
+                                                                                <ul class="dropdown-menu">
+
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                    </li>
+
+                                                                                </ul>
+                                                                            </div>
+                                                                            <!-- /btn-group -->
+                                                                            <input type="text" class="form-control" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-12 ">
+                                                                        <div class="input-group">
+                                                                            <div class="input-group-btn">
+                                                                                <button type="button" class="btn orange-default dropdown-toggle" data-toggle="dropdown">Action
+                                                                                    <i class="fa fa-angle-down"></i>
+                                                                                </button>
+                                                                                <ul class="dropdown-menu">
+
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-edit"></i> Edit</a>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <a href="javascript:;"><i class="fa fa-remove"></i> Delete </a>
+                                                                                    </li>
+
+                                                                                </ul>
+                                                                            </div>
+                                                                            <!-- /btn-group -->
+                                                                            <input type="text" class="form-control" readonly>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3"></div>
+                                                            </div>
+                                                        </div>
+                                                        <!--End Remaining Crew-->
+
                                                     </div>
                                                     <div class="tab-pane" id="tab_images">
                                                         <div class="alert alert-success margin-bottom-10">
@@ -1134,9 +1381,9 @@
                                                                     <th width="8%"> Image </th>
                                                                     <th width="25%"> Label </th>
                                                                     <th width="8%"> Sort Order </th>
-                                                                    <th width="10%"> Base Image </th>
-                                                                    <th width="10%"> Small Image </th>
-                                                                    <th width="10%"> Thumbnail </th>
+                                                                    <th width="10%"> FILM POSTER</th>
+                                                                    <th width="10%"> FRAME </th>
+                                                                    <th width="10%"> DIRECTOR PORTRAIT </th>
                                                                     <th width="10%"> </th>
                                                                 </tr>
                                                             </thead>

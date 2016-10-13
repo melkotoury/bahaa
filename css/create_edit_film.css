@@ -3098,6 +3098,24 @@ fieldset[disabled] .btn.blue-oleo:not(.btn-outline):hover {
     border-color: transparent
 }
 
+.dir-prod{
+    margin-bottom: 10px;
+}
+.btn.orange-default:not(.btn-outline){
+    color: #FFF;
+    background-color: #ff755a;
+    border-color: #ff755a;
+}
+
+.btn.orange-default:not(.btn-outline).active,
+.btn.orange-default:not(.btn-outline):active,
+.btn.orange-default:not(.btn-outline):hover,
+.open>.btn.orange-default:not(.btn-outline).dropdown-toggle {
+    color: #FFF;
+    background-color: #ff755a;
+    border-color: #ff755a;
+}
+
 .btn.green:not(.btn-outline) {
     color: #FFF;
     background-color: #32c5d2;
@@ -5543,7 +5561,21 @@ fieldset[disabled] .btn.yellow:not(.btn-outline):hover {
     color: #c49f47;
     background: 0 0
 }
-
+.btn.btn-outline.orange-default {
+    border-color: #ff755a;
+    color: #ff755a;
+    background: 0 0;
+}
+.btn.btn-outline.orange-default.active,
+.btn.btn-outline.orange-default:active,
+.btn.btn-outline.orange-default:active:focus,
+.btn.btn-outline.orange-default:active:hover,
+.btn.btn-outline.orange-default:focus,
+.btn.btn-outline.orange-default:hover {
+    border-color: #ff755a;
+    color: #fff;
+    background-color: #ff755a;
+}
 .btn.btn-outline.yellow.active,
 .btn.btn-outline.yellow:active,
 .btn.btn-outline.yellow:active:focus,
