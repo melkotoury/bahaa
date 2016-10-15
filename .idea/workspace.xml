@@ -2,290 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2e6c6b-0738-4e42-a892-07aaf74b3e70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modal_ajax_add_director.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create_film.html" afterPath="$PROJECT_DIR$/create_film.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/create_edit_film.css" afterPath="$PROJECT_DIR$/css/create_edit_film.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom-styles.css" afterPath="$PROJECT_DIR$/css/custom-styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="$PROJECT_DIR$/css/flexslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/jqvmap.min.css" afterPath="$PROJECT_DIR$/css/jqvmap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/css/simple-line-icons/fonts/Simple-Line-Icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vendors/select2-bootstrap.min.css" afterPath="$PROJECT_DIR$/css/vendors/select2-bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/vendors/select2.min.css" afterPath="$PROJECT_DIR$/css/vendors/select2.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery-1.11.2.min.js" afterPath="$PROJECT_DIR$/js/jquery-1.11.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.flexslider-min.js" afterPath="$PROJECT_DIR$/js/jquery.flexslider-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.vmap.min.js" afterPath="$PROJECT_DIR$/js/jquery.vmap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.vmap.world.js" afterPath="$PROJECT_DIR$/js/jquery.vmap.world.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/js.cookie.min.js" afterPath="$PROJECT_DIR$/js/js.cookie.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/modernizr-2.6.2-respond-1.1.0.min.js" afterPath="$PROJECT_DIR$/js/modernizr-2.6.2-respond-1.1.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="$PROJECT_DIR$/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/amcharts/ammap/maps/js/worldLow.js" afterPath="$PROJECT_DIR$/js/vendors/amcharts/ammap/maps/js/worldLow.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/angularjs/angular-sanitize.min.js" afterPath="$PROJECT_DIR$/js/vendors/angularjs/angular-sanitize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/angularjs/angular-touch.min.js" afterPath="$PROJECT_DIR$/js/vendors/angularjs/angular-touch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/angularjs/angular.min.js" afterPath="$PROJECT_DIR$/js/vendors/angularjs/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/angularjs/plugins/ocLazyLoad.min.js" afterPath="$PROJECT_DIR$/js/vendors/angularjs/plugins/ocLazyLoad.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/angularjs/plugins/ui-bootstrap-tpls.min.js" afterPath="$PROJECT_DIR$/js/vendors/angularjs/plugins/ui-bootstrap-tpls.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/autosize/autosize.min.js" afterPath="$PROJECT_DIR$/js/vendors/autosize/autosize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/backstretch/jquery.backstretch.min.js" afterPath="$PROJECT_DIR$/js/vendors/backstretch/jquery.backstretch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootbox/bootbox.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootbox/bootbox.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-colorpicker/css/colorpicker.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-colorpicker/css/colorpicker.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-colorpicker/js/bootstrap-colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-confirmation/bootstrap-confirmation.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-confirmation/bootstrap-confirmation.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-contextmenu/bootstrap-contextmenu.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-contextmenu/bootstrap-contextmenu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-daterangepicker/daterangepicker.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-daterangepicker/daterangepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-editable/bootstrap-editable/css/bootstrap-editable.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-editable/bootstrap-editable/css/bootstrap-editable.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/address/address.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/address/address.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/address/address.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/address/address.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/wysihtml5/wysihtml5.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-editable/inputs-ext/wysihtml5/wysihtml5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-growl/jquery.bootstrap-growl.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-growl/jquery.bootstrap-growl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-markdown/js/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-markdown/js/bootstrap-markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-maxlength/bootstrap-maxlength.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-maxlength/bootstrap-maxlength.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-modal/css/bootstrap-modal-bs3patch.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-modal/css/bootstrap-modal-bs3patch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-modal/css/bootstrap-modal.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-modal/css/bootstrap-modal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-modal/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-modal/js/bootstrap-modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-modal/js/bootstrap-modalmanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-pwstrength/pwstrength-bootstrap.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-pwstrength/pwstrength-bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-select/js/bootstrap-select.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-select/js/bootstrap-select.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-summernote/summernote.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-summernote/summernote.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-switch/css/bootstrap-switch.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-switch/css/bootstrap-switch.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-switch/js/bootstrap-switch.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-switch/js/bootstrap-switch.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-tagsinput/bootstrap-tagsinput.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-tagsinput/bootstrap-tagsinput.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-tagsinput/bootstrap-tagsinput.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-tagsinput/bootstrap-tagsinput.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-toastr/toastr.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-toastr/toastr.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-toastr/toastr.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-toastr/toastr.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-touchspin/bootstrap.touchspin.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-touchspin/bootstrap.touchspin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-touchspin/bootstrap.touchspin.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-touchspin/bootstrap.touchspin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-wizard/jquery.bootstrap.wizard.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-wizard/jquery.bootstrap.wizard.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-wysihtml5/bootstrap-wysihtml5.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap-wysihtml5/bootstrap-wysihtml5.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/js/vendors/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/js/vendors/bootstrap/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/vendors/bootstrap/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/js/vendors/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/clockface/css/clockface.css" afterPath="$PROJECT_DIR$/js/vendors/clockface/css/clockface.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/clockface/js/clockface.js" afterPath="$PROJECT_DIR$/js/vendors/clockface/js/clockface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/lib/codemirror.css" afterPath="$PROJECT_DIR$/js/vendors/codemirror/lib/codemirror.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/lib/codemirror.js" afterPath="$PROJECT_DIR$/js/vendors/codemirror/lib/codemirror.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/mode/css/css.js" afterPath="$PROJECT_DIR$/js/vendors/codemirror/mode/css/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/mode/htmlmixed/htmlmixed.js" afterPath="$PROJECT_DIR$/js/vendors/codemirror/mode/htmlmixed/htmlmixed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/mode/javascript/javascript.js" afterPath="$PROJECT_DIR$/js/vendors/codemirror/mode/javascript/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/theme/ambiance.css" afterPath="$PROJECT_DIR$/js/vendors/codemirror/theme/ambiance.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/theme/material.css" afterPath="$PROJECT_DIR$/js/vendors/codemirror/theme/material.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/theme/neat.css" afterPath="$PROJECT_DIR$/js/vendors/codemirror/theme/neat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/codemirror/theme/neo.css" afterPath="$PROJECT_DIR$/js/vendors/codemirror/theme/neo.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/counterup/jquery.counterup.min.js" afterPath="$PROJECT_DIR$/js/vendors/counterup/jquery.counterup.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/counterup/jquery.waypoints.min.js" afterPath="$PROJECT_DIR$/js/vendors/counterup/jquery.waypoints.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project1.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project3.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project4.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/ajax-juicy-projects/project4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore2.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore3.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore4.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/loadMore4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project1.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project2.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project3.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project4.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/ajax/project4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/01.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/02.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/02.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/06.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/06.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/08.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/08.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/09.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/09.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/1.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/11.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/12.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/13.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/13.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/14.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/15.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/16.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/17.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/18.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/18.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/19.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/20.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/20.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/21.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/22.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/23.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/24.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/24.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/25.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/25.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/26.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/26.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/27.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/3.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/4.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/52.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/52.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/59.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/59.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/62.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/62.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/63.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/63.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/77.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/77.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/8.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/82.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/82.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/83.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/83.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/9.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/1200x900/9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/015.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/015.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/06.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/06.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/1.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/11.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/11.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/12.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/12.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/14.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/19.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/19.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/21.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/21.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/22.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/22.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/23.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/23.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/26.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/26.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/27.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/27.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/33.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/33.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/34.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/34.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/35.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/35.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/36.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/36.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/37.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/38.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/38.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/39.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/39.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/40.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/40.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/41.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/41.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/42.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/42.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/43.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/43.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/44.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/44.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/45.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/45.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/46.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/46.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/47.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/47.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/48.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/49.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/49.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/5.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/50.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/50.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/51.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/51.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/55.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/55.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/57.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/57.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/6.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/60.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/60.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/64.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/64.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/65.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/65.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/8.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/9.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/94.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/94.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/98.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/img/portfolio/600x600/98.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project1.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project2.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project3.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project4.html" afterPath="$PROJECT_DIR$/js/vendors/cubeportfolio/assets/global/plugins/cubeportfolio/ajax/project4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_asc.html" afterPath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_asc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_asc_disabled.html" afterPath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_asc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_both.html" afterPath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_both.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_desc.html" afterPath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_desc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_desc_disabled.html" afterPath="$PROJECT_DIR$/js/vendors/datatables/DataTables-1.10.12/images/sort_desc_disabled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/datatables.min.css" afterPath="$PROJECT_DIR$/js/vendors/datatables/datatables.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/datatables/datatables.min.js" afterPath="$PROJECT_DIR$/js/vendors/datatables/datatables.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/dropzone/basic.min.css" afterPath="$PROJECT_DIR$/js/vendors/dropzone/basic.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/dropzone/dropzone.min.css" afterPath="$PROJECT_DIR$/js/vendors/dropzone/dropzone.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/dropzone/dropzone.min.js" afterPath="$PROJECT_DIR$/js/vendors/dropzone/dropzone.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/fancybox/source/jquery.fancybox.css" afterPath="$PROJECT_DIR$/js/vendors/fancybox/source/jquery.fancybox.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/fancybox/source/jquery.fancybox.pack.js" afterPath="$PROJECT_DIR$/js/vendors/fancybox/source/jquery.fancybox.pack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.categories.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.categories.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.crosshair.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.crosshair.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.pie.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.resize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.stack.min.js" afterPath="$PROJECT_DIR$/js/vendors/flot/jquery.flot.stack.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/flowchart/flowchart.min.js" afterPath="$PROJECT_DIR$/js/vendors/flowchart/flowchart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/js/vendors/font-awesome/css/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/font-awesome/fonts/fontawesome-webfont93e3.svg" afterPath="$PROJECT_DIR$/js/vendors/font-awesome/fonts/fontawesome-webfont93e3.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/fullcalendar/fullcalendar.min.css" afterPath="$PROJECT_DIR$/js/vendors/fullcalendar/fullcalendar.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/fullcalendar/fullcalendar.min.js" afterPath="$PROJECT_DIR$/js/vendors/fullcalendar/fullcalendar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/holder.js/100%x180.html" afterPath="$PROJECT_DIR$/js/vendors/holder.js/100%x180.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/holder.js/100%x200.html" afterPath="$PROJECT_DIR$/js/vendors/holder.js/100%x200.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/holder.js/64x64.html" afterPath="$PROJECT_DIR$/js/vendors/holder.js/64x64.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/icheck.min.js" afterPath="$PROJECT_DIR$/js/vendors/icheck/icheck.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/all.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/flat/_all.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/flat/_all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/futurico/futurico.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/futurico/futurico.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/line/_all.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/line/_all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/minimal/_all.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/minimal/_all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/polaris/polaris.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/polaris/polaris.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/icheck/skins/square/_all.css" afterPath="$PROJECT_DIR$/js/vendors/icheck/skins/square/_all.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/ion.rangeslider/css/ion.rangeSlider.css" afterPath="$PROJECT_DIR$/js/vendors/ion.rangeslider/css/ion.rangeSlider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/ion.rangeslider/css/ion.rangeSlider.skinFlat.css" afterPath="$PROJECT_DIR$/js/vendors/ion.rangeslider/css/ion.rangeSlider.skinFlat.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jcrop/css/jquery.Jcrop.min.css" afterPath="$PROJECT_DIR$/js/vendors/jcrop/css/jquery.Jcrop.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jcrop/js/jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/js/vendors/jcrop/js/jquery.Jcrop.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jcrop/js/jquery.color.js" afterPath="$PROJECT_DIR$/js/vendors/jcrop/js/jquery.color.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-bootpag/jquery.bootpag.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-bootpag/jquery.bootpag.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-cookiebar/jquery.cookieBar.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-cookiebar/jquery.cookieBar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-easypiechart/jquery.easypiechart.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-easypiechart/jquery.easypiechart.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/css/jquery.fileupload-ui.css" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/css/jquery.fileupload-ui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/css/jquery.fileupload.css" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/css/jquery.fileupload.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/error-2.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/error-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/error.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/error.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/play-pause-2.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/play-pause-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/play-pause.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/play-pause.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/video-play-2.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/video-play-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/video-play.html" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/img/video-play.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-audio.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-audio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-image.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-process.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-process.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-ui.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-validate.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-video.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload-video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.fileupload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.iframe-transport.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/jquery.iframe-transport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/vendor/jquery.ui.widget.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-file-upload/js/vendor/jquery.ui.widget.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-idle-timeout/jquery.idletimeout.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-idle-timeout/jquery.idletimeout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-idle-timeout/jquery.idletimer.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-idle-timeout/jquery.idletimer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-inputmask/jquery.inputmask.bundle.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-inputmask/jquery.inputmask.bundle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-knob/js/jquery.knob.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-knob/js/jquery.knob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-minicolors/jquery.minicolors.css" afterPath="$PROJECT_DIR$/js/vendors/jquery-minicolors/jquery.minicolors.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-minicolors/jquery.minicolors.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-minicolors/jquery.minicolors.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-multi-select/js/jquery.multi-select.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-multi-select/js/jquery.multi-select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-nestable/jquery.nestable.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-nestable/jquery.nestable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-notific8/jquery.notific8.min.css" afterPath="$PROJECT_DIR$/js/vendors/jquery-notific8/jquery.notific8.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-notific8/jquery.notific8.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-notific8/jquery.notific8.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-slimscroll/jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-slimscroll/jquery.slimscroll.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-ui/jquery-ui.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-ui/jquery-ui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-validation/js/additional-methods.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-validation/js/additional-methods.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery-validation/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery-validation/js/jquery.validate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery.input-ip-address-control-1.0.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery.input-ip-address-control-1.0.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jquery.pulsate.min.js" afterPath="$PROJECT_DIR$/js/vendors/jquery.pulsate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/jquery.vmap.js" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/jquery.vmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/jqvmap.css" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/jqvmap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.germany.js" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.germany.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.russia.js" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.russia.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.usa.js" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.usa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.world.js" afterPath="$PROJECT_DIR$/js/vendors/jqvmap/jqvmap/maps/jquery.vmap.world.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/js.cookie.min.js" afterPath="$PROJECT_DIR$/js/vendors/js.cookie.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/jstree/dist/jstree.min.js" afterPath="$PROJECT_DIR$/js/vendors/jstree/dist/jstree.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/mapplic/mapplic/images/pin-purple-white.html" afterPath="$PROJECT_DIR$/js/vendors/mapplic/mapplic/images/pin-purple-white.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/moment.min.js" afterPath="$PROJECT_DIR$/js/vendors/moment.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/morris/morris.css" afterPath="$PROJECT_DIR$/js/vendors/morris/morris.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/morris/morris.min.js" afterPath="$PROJECT_DIR$/js/vendors/morris/morris.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/nouislider/nouislider.min.js" afterPath="$PROJECT_DIR$/js/vendors/nouislider/nouislider.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/nouislider/wNumb.min.js" afterPath="$PROJECT_DIR$/js/vendors/nouislider/wNumb.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/pace/pace.min.js" afterPath="$PROJECT_DIR$/js/vendors/pace/pace.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/pace/themes/pace-theme-flash.css" afterPath="$PROJECT_DIR$/js/vendors/pace/themes/pace-theme-flash.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/plupload/js/plupload.full.min.js" afterPath="$PROJECT_DIR$/js/vendors/plupload/js/plupload.full.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/scripts/charts-amcharts.min.js" afterPath="$PROJECT_DIR$/js/vendors/scripts/charts-amcharts.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/select2.full.min.js" afterPath="$PROJECT_DIR$/js/vendors/select2.full.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/select2/css/select2-bootstrap.min.css" afterPath="$PROJECT_DIR$/js/vendors/select2/css/select2-bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/select2/css/select2.min.css" afterPath="$PROJECT_DIR$/js/vendors/select2/css/select2.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/select2/js/select2.full.min.js" afterPath="$PROJECT_DIR$/js/vendors/select2/js/select2.full.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/simple-line-icons/fonts/Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/js/vendors/simple-line-icons/fonts/Simple-Line-Icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/socicon/font/socicon.svg" afterPath="$PROJECT_DIR$/js/vendors/socicon/font/socicon.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/socicon/socicon.css" afterPath="$PROJECT_DIR$/js/vendors/socicon/socicon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/vendors/typeahead/typeahead.bundle.min.js" afterPath="$PROJECT_DIR$/js/vendors/typeahead/typeahead.bundle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_private_films.html" afterPath="$PROJECT_DIR$/my_private_films.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_pub_films.html" afterPath="$PROJECT_DIR$/my_pub_films.html" />
     </list>
     <ignored path="bahaa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -326,20 +44,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_film.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create_film.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_film.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4265">
-              <caret line="1381" column="80" selection-start-line="1381" selection-start-column="80" selection-end-line="1381" selection-end-column="80" />
-              <folding />
+            <state relative-caret-position="6789">
+              <caret line="1364" column="96" selection-start-line="1364" selection-start-column="96" selection-end-line="1364" selection-end-column="96" />
+              <folding>
+                <element signature="e#143999#144005#0" expanded="true" />
+                <element signature="e#144108#144114#0" expanded="true" />
+                <element signature="e#144324#144330#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_pub_films.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="my_pub_films.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_pub_films.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="2414">
               <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
@@ -349,7 +71,7 @@
       <file leaf-file-name="my_private_films.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_private_films.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="2006">
               <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
               <folding />
             </state>
@@ -369,7 +91,7 @@
       <file leaf-file-name="create_edit_film.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/create_edit_film.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="52734">
               <caret line="3102" column="0" selection-start-line="3102" selection-start-column="0" selection-end-line="3102" selection-end-column="0" />
               <folding />
             </state>
@@ -454,9 +176,9 @@
         <option value="$PROJECT_DIR$/js/vendors/scripts/components-select2.min.js" />
         <option value="$PROJECT_DIR$/js/create_edit_film.js" />
         <option value="$PROJECT_DIR$/css/create_edit_film.css" />
-        <option value="$PROJECT_DIR$/create_film.html" />
         <option value="$PROJECT_DIR$/my_private_films.html" />
         <option value="$PROJECT_DIR$/my_pub_films.html" />
+        <option value="$PROJECT_DIR$/create_film.html" />
       </list>
     </option>
   </component>
@@ -501,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -522,7 +245,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ColorIdeProjectViewPane">
         <subPane>
           <PATH>
@@ -627,12 +349,13 @@
       <workItem from="1473954949178" duration="22012000" />
       <workItem from="1474057140805" duration="632000" />
       <workItem from="1475923613863" duration="25155000" />
-      <workItem from="1476167780047" duration="16374000" />
+      <workItem from="1476167780047" duration="19024000" />
+      <workItem from="1476545727942" duration="1244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64173000" />
+    <option name="totallyTimeSpent" value="68067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -829,7 +552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="52" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1411">
           <caret line="83" column="52" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/create_edit_film.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
+        <state relative-caret-position="52734">
           <caret line="3102" column="0" selection-start-line="3102" selection-start-column="0" selection-end-line="3102" selection-end-column="0" />
           <folding />
         </state>
@@ -1004,33 +725,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="185" column="56" selection-start-line="185" selection-start-column="54" selection-end-line="185" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#li#7;n#ul#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_private_films.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="2006">
           <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4265">
-          <caret line="1381" column="80" selection-start-line="1381" selection-start-column="80" selection-end-line="1381" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_pub_films.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="2414">
           <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6789">
+          <caret line="1364" column="96" selection-start-line="1364" selection-start-column="96" selection-end-line="1364" selection-end-column="96" />
+          <folding>
+            <element signature="e#143999#144005#0" expanded="true" />
+            <element signature="e#144108#144114#0" expanded="true" />
+            <element signature="e#144324#144330#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
