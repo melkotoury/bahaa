@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- BEGIN PAGE LEVEL PLUGINS -->
     <!--<link href="js/vendors/bootstrap-daterangepicker/daterangepicker.min.css" rel="stylesheet" type="text/css" />-->
+    <link rel="stylesheet" href="js/vendors/jquery-file-upload/css/jquery.fileupload.css">
+    <link rel="stylesheet" href="js/vendors/jquery-file-upload/css/jquery.fileupload-ui.css">
+
     <link href="js/vendors/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" rel="stylesheet" type="text/css" />
     <link href="css/vendors/select2.min.css" rel="stylesheet" type="text/css" />
     <link href="css/vendors/select2-bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -180,19 +183,21 @@
                                                     </li>
                                                     
                                                     <li>
-                                                        <a href="#tab_images" data-toggle="tab"> Selections & Awards </a>
+                                                        <a href="#tab_awards" data-toggle="tab"> Selections & Awards </a>
                                                     </li>
                                                 </ul>
                                                 <div class="tab-content">
                                                     <div class="tab-pane active" id="tab_general">
-                                                        <!--Original Title-->
+                                                        
                                                         <div class="form-body">
+                                                           <!--Original Title-->
                                                             <div class="form-group">
                                                                 <label class="col-md-2 control-label">Original Title:
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="col-md-10">
-                                                                    <input type="text" class="form-control" name="film[original_title]" placeholder=""> </div>
+                                                                    <input type="text" class="form-control" name="film[original_title]" placeholder=""> 
+                                                                    </div>
                                                             </div>
                                                             <!--End Original Title-->
                                                             <!--English Title-->
@@ -229,7 +234,7 @@
                                                                     <span class="required"> * </span>
                                                                 </label>
                                                                 <div class="col-md-10">
-                                                                    <input type="text" class="form-control" name="film[film_url]" placeholder=""> </div>
+                                                                    <input type="text" class="form-control" name="film[film_url]" placeholder="film display name ,e.g: filmname2016"> </div>
                                                             </div>
                                                             <!--Languages-->
                                                             <div class="form-group">
@@ -874,6 +879,7 @@
                                                                             <option value="documentary">Documentary</option>
                                                                             <option value="experimental">Experimental</option>
                                                                             <option value="fantastic">Fantastic</option>
+                                                                            <option value="fiction">Fiction</option>
                                                                             <option value="music_video">Music Video</option>
                                                                             <option value="other">Other</option>
                                                                             <option value="terror">Terror</option>
@@ -1085,6 +1091,27 @@
                                                                 </div>
                                                             </div>
                                                             <!--End Long Synopsis English-->
+                                                            <!--Film Link-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Film Link:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[film_link]" placeholder="link to vimeo or youtube"> 
+                                                                    </div>
+                                                            </div>
+                                                            <!--End Film Link-->
+                                                            <!--Film Password-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Film Password:
+<!--                                                                    <span class="required"> * </span>-->
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[film_password]" placeholder=""> 
+                                                                    </div>
+                                                            </div>
+                                                            <!--End Film Password-->
+                                                           
 
                                                         </div>
                                                     </div>
@@ -1361,10 +1388,169 @@
 
                                                     </div>
                                                     <div class="tab-pane" id="tab_film_materials">
-                                                        
+                                                           <div class="form-body">
+                                                         <!--Film Poster-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Film's Poster:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                   <div class="input-group">
+                                                                            <label class="input-group-btn">
+                                                                                <span class="btn btn-primary">
+                                                                                    Browse&hellip; <input type="file" style="display: none;" >
+                                                                                </span>
+                                                                            </label>
+                                                                            <input type="text" class="form-control" readonly>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--End Film Poster-->
+                                                            <!--Film Still-->
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Film's Still:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                   <div class="input-group">
+                                                                            <label class="input-group-btn">
+                                                                                <span class="btn btn-primary">
+                                                                                    Browse&hellip; <input type="file" style="display: none;" >
+                                                                                </span>
+                                                                            </label>
+                                                                            <input type="text" class="form-control" readonly>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-md-2"></div>
+                                                                <div class="col-md-10">
+                                                                    <div class="input-group">
+                                                                        <label class="input-group-btn">
+                                                                                <span class="btn btn-primary">
+                                                                                    Browse&hellip; <input type="file" style="display: none;" >
+                                                                                </span>
+                                                                        </label>
+                                                                        <input type="text" class="form-control" readonly>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2"></div>
+                                                                <div class="col-md-10">
+                                                                    <div class="input-group">
+                                                                        <label class="input-group-btn">
+                                                                                <span class="btn btn-primary">
+                                                                                    Browse&hellip; <input type="file" style="display: none;" >
+                                                                                </span>
+                                                                        </label>
+                                                                        <input type="text" class="form-control" readonly>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!--End Film Still-->
+                                                               <!--Director Photo-->
+                                                               <div class="form-group">
+                                                                   <label class="col-md-2 control-label">Director Photo:
+                                                                       <span class="required"> * </span>
+                                                                   </label>
+                                                                   <div class="col-md-10">
+                                                                       <div class="input-group">
+                                                                           <label class="input-group-btn">
+                                                                                <span class="btn btn-primary">
+                                                                                    Browse&hellip; <input type="file" style="display: none;" >
+                                                                                </span>
+                                                                           </label>
+                                                                           <input type="text" class="form-control" readonly>
+                                                                       </div>
+                                                                   </div>
+                                                               </div>
+                                                               <!--End Director Photo-->
+                                                               <hr>
+                                                               <label class="col-md-2 control-label">Subtitles:
+                                                                   <!--<span class="required"> * </span>-->
+                                                               </label>
+                                                               <form id="fileupload" action="http://keenthemes.com/preview/metronic/theme/assets/global/plugins/jquery-file-upload/server/php/" method="POST" enctype="multipart/form-data">
+                                                                   <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                                                                   <div class="row fileupload-buttonbar">
+                                                                       <div class="col-lg-7">
+                                                                           <!-- The fileinput-button span is used to style the file input field as button -->
+                                                                           <span class="btn green fileinput-button">
+                                                <i class="fa fa-plus"></i>
+                                                <span> Add files... </span>
+                                                <input type="file" name="files[]" multiple=""> </span>
+                                                                           <button type="submit" class="btn blue start">
+                                                                               <i class="fa fa-upload"></i>
+                                                                               <span> Start upload </span>
+                                                                           </button>
+                                                                           <button type="reset" class="btn warning cancel">
+                                                                               <i class="fa fa-ban-circle"></i>
+                                                                               <span> Cancel upload </span>
+                                                                           </button>
+                                                                           <button type="button" class="btn red delete">
+                                                                               <i class="fa fa-trash"></i>
+                                                                               <span> Delete </span>
+                                                                           </button>
+                                                                           <input type="checkbox" class="toggle">
+                                                                           <!-- The global file processing state -->
+                                                                           <span class="fileupload-process"> </span>
+                                                                       </div>
+                                                                       <!-- The global progress information -->
+                                                                       <div class="col-lg-5 fileupload-progress fade">
+                                                                           <!-- The global progress bar -->
+                                                                           <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                                                                               <div class="progress-bar progress-bar-success" style="width:0%;"> </div>
+                                                                           </div>
+                                                                           <!-- The extended global progress information -->
+                                                                           <div class="progress-extended"> &nbsp; </div>
+                                                                       </div>
+                                                                   </div>
+                                                                   <!-- The table listing the files available for upload/download -->
+                                                                   <table role="presentation" class="table table-striped clearfix">
+                                                                       <tbody class="files"> </tbody>
+                                                                   </table>
+                                                               </form>
+
+                                                        </div>
                                                     </div>
                                                     <div class="tab-pane" id="tab_promotion">
-                                                        
+                                                        <!--Website URL-->
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Website URL:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[website_url]" placeholder=""> </div>
+                                                            </div>
+                                                            <!--End Website URL-->
+                                                            <!--Facebook Link-->
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Facebook Link:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[facebook_link]" placeholder=""> </div>
+                                                            </div>
+                                                            <!--End Facebook Link-->
+                                                            <!--Twitter Link-->
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Twitter Link:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[twitter_link]" placeholder=""> </div>
+                                                            </div>
+                                                            <!--End Twitter Link-->
+                                                                <!--Instagram Link-->
+                                                        <div class="form-body">
+                                                            <div class="form-group">
+                                                                <label class="col-md-2 control-label">Instagram Link:
+                                                                    <span class="required"> * </span>
+                                                                </label>
+                                                                <div class="col-md-10">
+                                                                    <input type="text" class="form-control" name="film[instagram_link]" placeholder=""> </div>
+                                                            </div>
+                                                            <!--End Instagram Link-->
                                                     </div>
                                                     
                                                 </div>
@@ -1426,12 +1612,25 @@
 <script src="js/js.cookie.min.js" type="text/javascript"></script>
 <script src="js/vendors/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
 <script src="js/vendors/jquery.blockui.min.js" type="text/javascript"></script>
-<script src="js/vendors/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!--<script src="js/vendors/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>-->
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
 <!--<script src="js/vendors/moment.min.js" type="text/javascript"></script>-->
 <!--<script src="js/vendors/bootstrap-daterangepicker/daterangepicker.min.js" type="text/javascript"></script>-->
 <script src="js/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/vendor/jquery.ui.widget.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/vendor/tmpl.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/vendor/load-image.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/vendor/canvas-to-blob.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/blueimp-gallery/jquery.blueimp-gallery.min.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.iframe-transport.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-process.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-image.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-audio.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-video.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-validate.js" type="text/javascript"></script>
+<script src="js/vendors/jquery-file-upload/js/jquery.fileupload-ui.js" type="text/javascript"></script>
 <!--<script src="js/vendors/bootstrap-timepicker/js/bootstrap-timepicker.min.js" type="text/javascript"></script>-->
 <!--<script src="js/vendors/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>-->
 <!--<script src="js/vendors/clockface/js/clockface.js" type="text/javascript"></script>-->
@@ -1443,6 +1642,8 @@
 <script src="js/vendors/scripts/components-date-time-pickers.min.js" type="text/javascript"></script>
 <script src="js/vendors/select2/js/select2.full.min.js"></script>
 <script src="js/vendors/scripts/components-select2.min.js" type="text/javascript"></script>
+<script src="js/vendors/scripts/form-fileupload.min.js" type="text/javascript"></script>
+
 
 <!-- END PAGE LEVEL SCRIPTS -->
 <!-- BEGIN THEME LAYOUT SCRIPTS -->
@@ -1453,6 +1654,7 @@
 
 <script src="js/main.js"></script>
 <script src="js/create_edit_film.js"></script>
+<script src="js/file_upload.js"></script>
 
 
 

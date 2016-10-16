@@ -24,6 +24,14 @@ $('.long-text-area-b').keyup(function() {
     var length = minLength_b+length;
     $('#chars_b').text(length);
 });
+
+
+
+ 
+
+  
+
+//end file
 var ComponentsDateTimePickers = function() {
     var t = function() {
             jQuery().datepicker && $(".date-picker").datepicker({
