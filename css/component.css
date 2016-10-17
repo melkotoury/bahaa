@@ -813,6 +813,12 @@ h1.block, h2.block, h3.block, h4.block, h5.block, h6.block {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.nav > li > a > span.desc,
+.nav > li > a > span.number{
+    cursor: pointer;
+    color: #23527c;
+}
 a {
     text-shadow: none;
     color: #337ab7;
