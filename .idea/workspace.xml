@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d2e6c6b-0738-4e42-a892-07aaf74b3e70" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/component.css" afterPath="$PROJECT_DIR$/css/component.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.html" afterPath="$PROJECT_DIR$/signup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/submit_film.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular-route.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/angular.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/dirPagination.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/json/country-capitals.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/json/rows.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/submit_film.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/vendors/jquery.magnific-popup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/submit_film.html" afterPath="$PROJECT_DIR$/submit_film.html" />
     </list>
     <ignored path="bahaa.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,16 +34,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8959">
-              <caret line="527" column="15" selection-start-line="527" selection-start-column="15" selection-end-line="527" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create_film.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/create_film.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -56,12 +56,60 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signup.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/signup.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="152" column="75" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_film.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/submit_film.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="172" column="17" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_film.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/submit_film.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="submit_film.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/submit_film.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#55#0" expanded="false" />
+                <marker date="1476732988114" expanded="true" signature="1177:1195" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,54 +144,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="my_pub_films.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_pub_films.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2414">
-              <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_private_films.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_private_films.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2006">
-              <caret line="118" column="48" selection-start-line="118" selection-start-column="48" selection-end-line="118" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_edit_film.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/create_edit_film.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52734">
-              <caret line="3102" column="0" selection-start-line="3102" selection-start-column="0" selection-end-line="3102" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_edit_film.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/create_edit_film.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -171,7 +179,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/map_festivals.html" />
         <option value="$PROJECT_DIR$/map_film_maker.html" />
-        <option value="$PROJECT_DIR$/submit_film.html" />
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/profile.html" />
@@ -192,6 +199,9 @@
         <option value="$PROJECT_DIR$/create_film.html" />
         <option value="$PROJECT_DIR$/signup.html" />
         <option value="$PROJECT_DIR$/css/component.css" />
+        <option value="$PROJECT_DIR$/js/submit_film.js" />
+        <option value="$PROJECT_DIR$/css/submit_film.css" />
+        <option value="$PROJECT_DIR$/submit_film.html" />
       </list>
     </option>
   </component>
@@ -286,6 +296,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bahaa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bahaa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -311,16 +335,16 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\bahaa\js\vendors" />
+      <recent name="E:\wamp\www\bahaa\js" />
+      <recent name="E:\wamp\www\bahaa" />
+      <recent name="E:\wamp\www\bahaa\js\vendors\scripts" />
+      <recent name="E:\wamp\www\bahaa\css\vendors" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wamp\www\bahaa\js" />
       <recent name="E:\wamp\www\bahaa\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp\www\bahaa" />
-      <recent name="E:\wamp\www\bahaa\js\vendors\scripts" />
-      <recent name="E:\wamp\www\bahaa\js\vendors" />
-      <recent name="E:\wamp\www\bahaa\css\vendors" />
-      <recent name="E:\wamp\www\bahaa\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -397,12 +421,12 @@
       <workItem from="1476167780047" duration="19024000" />
       <workItem from="1476545727942" duration="1244000" />
       <workItem from="1476550669829" duration="5543000" />
-      <workItem from="1476705320503" duration="7589000" />
+      <workItem from="1476705320503" duration="14175000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81199000" />
+    <option name="totallyTimeSpent" value="87785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
@@ -474,24 +498,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/iamafilm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap-datepicker/js/bootstrap-datepicker.min.js" />
-    <entry file="file://$PROJECT_DIR$/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
-    <entry file="file://$PROJECT_DIR$/js/global/app.js" />
-    <entry file="file://$PROJECT_DIR$/js/datatable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/bootstrap-maxlength/bootstrap-maxlength.min.js" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap-switch/js/bootstrap-switch.min.js" />
     <entry file="file://$PROJECT_DIR$/css/plugins.css" />
     <entry file="file://$PROJECT_DIR$/js/demo.min.js" />
@@ -541,13 +547,6 @@
     <entry file="file://$PROJECT_DIR$/map_film_maker.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
-          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/submit_film.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
           <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
         </state>
       </provider>
@@ -803,6 +802,70 @@
         <state relative-caret-position="330">
           <caret line="152" column="75" selection-start-line="152" selection-start-column="75" selection-end-line="152" selection-end-column="75" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="172" column="17" selection-start-line="172" selection-start-column="11" selection-end-line="172" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/vendors/jquery.magnific-popup.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/submit_film.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#55#0" expanded="false" />
+            <marker date="1476732988114" expanded="true" signature="1177:1195" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/submit_film.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/submit_film.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="130" column="75" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

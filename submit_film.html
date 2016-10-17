@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-ng-app="filmApp">
 
 <head>
     <meta charset="utf-8">
@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/submit_film.css">
 
 
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -102,6 +103,103 @@
     </div>
 </div>
 
+<!--Start -->
+<div class="container">
+    <div class="box">
+    <div id="submit-video" class="submit clearfix">
+
+        <div class="festivals" data-ng-controller="festivalCtrl">
+            <div class="festival">
+
+                <h4 class="text-center">Festivals</h4>
+                <div class="festival-color">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="festival-clolr-box">
+                                <span style="background: #00FFA1;"></span>submission
+                                <span style="background: #FFD400;"></span>deadline
+                                <span style="background: #ff2525;"></span>closed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="festival-filter">
+                    <div class="form-group" data-ng-model='festivalFilter'>
+                        <div class="form-group search-fest">
+                            <input value="" type="text" class="form-control" data-ng-model="festivalFilter" placeholder="Find your festival">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <div class="films-filter festival-filter">
+                            <span class="active" data-ng-click="doSort('date')">All</span>
+                            <span data-ng-click="doSort('date')">Date</span>
+                            <span data-ng-click="festivalFilter = {type: 'submission'}">Submission</span>
+                            <span data-ng-click="festivalFilter = {type: 'deadline'}">Deadline</span>
+                            <span data-ng-click="festivalFilter = {type: 'closed'}">Closed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group clearfix">
+                    <p class="col-xs-4 text-right" style="line-height: 2.5">Show As</p>
+                    <div class="col-xs-8">
+                        <select class="form-control" data-ng-model="pageSize">
+                            <option ng-selected="pageSize == pageSize" value="10" selected>10</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="festival-box"
+                     dir-paginate="festival in festivals
+                                        | filter: festivalFilter
+                                        | orderBy: sortBy: reverse
+                                        | itemsPerPage: pageSize"
+                     pagination-id="festPagi">
+
+                    <div class="col-sm-4">
+                        <div class="festival-img">
+                            <img class="img-responsive" ng-src="{{festival.thu}}">
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8">
+                        <div class="festival-info">
+                            <h4>
+                                {{festival.title}}
+                            </h4>
+                            <p>
+                                {{festival.t_description}}
+                            </p>
+                            <span style="    text-transform: capitalize;">
+                                                    {{festival.country + ' ' + festival.date}}
+                                                </span>
+                        </div>
+                        <form>
+                            <select ng-controller="filmsCtrl" class="form-control pull-left" style="width:70%;">
+                                <option selected disabled>Choose a film</option>
+                                <option data-ng-repeat="film in films" value="{{film.title}}">{{film.title}}</option>
+                            </select>
+                            <div class="form-group">
+                                <input type="submit" class="btn btn-success pull-right" value="Submit">
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <span class="{{festival.type[0]}}"></span>
+                </div>
+                <dir-pagination-controls pagination-id="festPagi"></dir-pagination-controls>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+</div>
+<!--End-->
 <!--Bottom Section-->
 <section id="bottom">
     <div class="container">
@@ -144,11 +242,44 @@
 
 <!-- Javascript
 ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="../../../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')</script>
+<!---- JavaScript Files ---->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.min.js"></script>
+
+<!-- AngularJs -->
+<script src="js/angular.min.js"></script>
+
+<!-- AngularJs Route -->
+<script src="js/angular-route.min.js"></script>
+
+<!-- BootstrapJs -->
 <script src="js/bootstrap.min.js"></script>
-<script src="js/main.js"></script>
+
+<!-- magnfic popup plugin -->
+<script src="js/vendors/jquery.magnific-popup.min.js"></script>
+
+<!-- Google-map -->
+<!--<script src="http://maps.google.com/maps/api/js?sensor=false"></script>-->
+
+<!-- mapJs -->
+<!--<script src="assets/js/map.js"></script>-->
+
+<!-- CustomJs -->
+<script src="js/submit_film.js"></script>
+
+
+<script src="js/dirPagination.js"></script>
+
+<!-- appJs -->
+<script src="js/app/app.js"></script>
+
+
+
+<!---- JavaScript Files ---->
+
+
 
 <script>
     !function ($) {
@@ -157,7 +288,6 @@
         })
     }(window.jQuery)
 </script>
-
 
 
 </body>
