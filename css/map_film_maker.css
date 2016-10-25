@@ -1,0 +1,16 @@
+.map-section{
+    margin-top: 110px;
+}
+
+
+.box {
+    overflow: hidden;
+    padding: 10px;
+    background: #222;
+    border-bottom: 3px solid #FFFFFF;
+    border-radius: 0 0 5px 5px;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    color: #fff;
+
+}
